@@ -1,0 +1,24 @@
+name: IndexNow ping
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'audits/**'
+      - 'badges/**/*.json'
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ping IndexNow
+        run: |
+          sleep 60
+          for url in \
+            "https://battam1111.github.io/bounty-radar-data/" \
+            "https://battam1111.github.io/bounty-radar-data/widget.html" \
+            "https://battam1111.github.io/bounty-radar-data/feed.json" \
+            "https://battam1111.github.io/bounty-radar-data/feed.xml"; do
+            curl -s "https://api.indexnow.org/indexnow?url=${url}&key=f7d3b89a4c1e42a690b3e58c6c1d4f7e" >/dev/null || true
+          done
+          echo "IndexNow pings sent for radar-data"

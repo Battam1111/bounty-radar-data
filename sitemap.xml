@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://battam1111.github.io/bounty-radar-data/</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://battam1111.github.io/bounty-radar-data/widget.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://battam1111.github.io/bounty-radar-data/widget-embed.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://battam1111.github.io/bounty-radar-data/badges/README.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://battam1111.github.io/bounty-radar-data/audits/sample.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

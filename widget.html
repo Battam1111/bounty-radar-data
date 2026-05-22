@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Bounty Radar Widget</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #666;
+  --border: #e0e0e0;
+  --accent: #0353c6;
+  --hover: #f5f5f5;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --fg: #f0f0f0;
+    --muted: #888;
+    --border: #333;
+    --accent: #4d9eff;
+    --hover: #252525;
+  }
+}
+[data-theme="light"] { --bg: #fff; --fg: #1a1a1a; --muted: #666; --border: #e0e0e0; --accent: #0353c6; --hover: #f5f5f5; }
+[data-theme="dark"] { --bg: #1a1a1a; --fg: #f0f0f0; --muted: #888; --border: #333; --accent: #4d9eff; --hover: #252525; }
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; line-height: 1.4; }
+.w-head { padding: 8px 12px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; font-size: 12px; }
+.w-head a { color: var(--accent); text-decoration: none; }
+.w-list { list-style: none; padding: 0; margin: 0; }
+.w-item { padding: 8px 12px; border-bottom: 1px solid var(--border); }
+.w-item:hover { background: var(--hover); }
+.w-item:last-child { border-bottom: none; }
+.w-title { display: block; color: var(--fg); text-decoration: none; font-weight: 500; margin-bottom: 2px; }
+.w-title:hover { color: var(--accent); }
+.w-meta { color: var(--muted); font-size: 11px; }
+.w-reward { color: #2a8a2a; font-weight: 600; }
+.w-footer { padding: 6px 12px; border-top: 1px solid var(--border); font-size: 11px; color: var(--muted); text-align: center; }
+.w-footer a { color: var(--accent); text-decoration: none; }
+.w-loading { padding: 24px; text-align: center; color: var(--muted); }
+.w-error { padding: 24px; text-align: center; color: #c04040; }
+</style>
+</head>
+<body>
+<div class="w-head">
+  <strong id="w-eco">ZK Bounties</strong>
+  <a href="https://battam1111.github.io/bounty-radar-data/" target="_blank">full feed →</a>
+</div>
+<ul class="w-list" id="w-list"><li class="w-loading">Loading bounties…</li></ul>
+<div class="w-footer">Powered by <a href="https://battam1111.github.io/bounty-radar-data/" target="_blank">bounty-radar</a> · <a href="https://battam1111.github.io/midnight-zk-cookbook/pricing.html" target="_blank">real-time alerts from $19/mo</a></div>
+<script>
+(function() {
+  const p = new URLSearchParams(location.search);
+  const ecosystem = (p.get('ecosystem') || '').toLowerCase();
+  const limit = Math.max(1, Math.min(50, parseInt(p.get('limit') || '8', 10)));
+  const theme = p.get('theme') || 'auto';
+  if (theme !== 'auto') document.documentElement.setAttribute('data-theme', theme);
+
+  const FEED = ecosystem
+    ? `https://battam1111.github.io/bounty-radar-data/${ecosystem}.json`
+    : 'https://battam1111.github.io/bounty-radar-data/feed-free.json';
+
+  document.getElementById('w-eco').textContent = ecosystem
+    ? `${ecosystem.charAt(0).toUpperCase() + ecosystem.slice(1)} Bounties`
+    : 'ZK Bounties';
+
+  function escapeHTML(s) {
+    return String(s || '').replace(/[<>&"']/g, c =>
+      ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  fetch(FEED)
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .then(d => {
+      const items = (d.bounties || []).slice(0, limit);
+      const list = document.getElementById('w-list');
+      if (!items.length) {
+        list.innerHTML = '<li class="w-loading">No bounties match.</li>';
+        return;
+      }
+      list.innerHTML = items.map(b => {
+        const title = escapeHTML((b.title || '').slice(0, 80));
+        const reward = escapeHTML(b.reward || '');
+        const repo = escapeHTML(b.repo || b.org || '');
+        const url = escapeHTML(b.issue_url || b.url || '#');
+        return `<li class="w-item">
+  <a class="w-title" href="${url}" target="_blank" rel="noopener">${title}</a>
+  <span class="w-meta"><span class="w-reward">${reward}</span> · ${repo}</span>
+</li>`;
+      }).join('');
+
+      // postMessage parent with computed height for iframe auto-resize
+      try {
+        const h = document.body.scrollHeight;
+        if (window.parent && window.parent !== window) {
+          window.parent.postMessage({type: 'bounty-radar-resize', height: h}, '*');
+        }
+      } catch (e) {}
+    })
+    .catch(err => {
+      document.getElementById('w-list').innerHTML =
+        '<li class="w-error">Couldn\'t load bounties (' + err + '). <a href="https://battam1111.github.io/bounty-radar-data/" target="_blank">View live feed →</a></li>';
+    });
+})();
+</script>
+</body>
+</html>
