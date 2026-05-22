@@ -1,0 +1,548 @@
+{
+  "generated_at": "2026-05-22T17:42:59.565124+00:00",
+  "total": 99,
+  "sources": [
+    "algora",
+    "github_label"
+  ],
+  "ecosystems": [
+    "AgentOrchestration",
+    "AtlasNexusOps",
+    "Dasharo",
+    "JavierChaparroMX",
+    "PX4-Autopilot",
+    "Scottcjn",
+    "brianne-showed",
+    "bug-bounty",
+    "coolify",
+    "jlcsearch",
+    "junn-dev",
+    "midnightntwrk",
+    "orchestration-agent",
+    "thesysdev",
+    "tinygrad",
+    "znc"
+  ],
+  "bounties": [
+    {
+      "id": "gh-Scottcjn-Rustchain-819",
+      "hash": "Scottcjn/Rustchain#819",
+      "title": "[Bounty] @tomisnotcat \u2014 ARM architecture details needed (5 RTC)",
+      "reward": "$3000",
+      "reward_usd": 3000.0,
+      "currency": "USD",
+      "repo": "Scottcjn/Rustchain",
+      "issue": 819,
+      "issue_url": "https://github.com/Scottcjn/Rustchain/issues/819",
+      "org": "Scottcjn",
+      "source": "github_label",
+      "first_seen_at": "2026-05-21T05:52:38.271098+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 1,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 0.5
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 18,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-orchestration-agent-AgentOrchestration-781",
+      "hash": "orchestration-agent/AgentOrchestration#781",
+      "title": "[ Bounty $6k ] [ Deploy ] Validate feature flag defaults before production rollout \u2014 config safety",
+      "reward": "$6000",
+      "reward_usd": 6000.0,
+      "currency": "USD",
+      "repo": "orchestration-agent/AgentOrchestration",
+      "issue": 781,
+      "issue_url": "https://github.com/orchestration-agent/AgentOrchestration/issues/781",
+      "org": "orchestration-agent",
+      "source": "github_label",
+      "first_seen_at": "2026-05-20T19:18:45.948077+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 6,
+        "solvability": 8,
+        "merge_probability": 0.68,
+        "estimated_hours": 10.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 1,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "srF4jyTQoHnppDfE",
+      "hash": "bug-bounty#29",
+      "title": "Implement a fully functional Admin Panel",
+      "reward": "$1",
+      "reward_usd": 1.0,
+      "currency": "USD",
+      "repo": "bug-bounty/bug-bounty",
+      "issue": 29,
+      "issue_url": "https://github.com/bug-bounty/bug-bounty/issues/29",
+      "org": "Brayan114",
+      "source": "algora",
+      "first_seen_at": "2026-05-20T11:52:18.447176+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": "error",
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "gh-Dasharo-dasharo-issues-1273",
+      "hash": "Dasharo/dasharo-issues#1273",
+      "title": "EC testablity interface",
+      "reward": "$1000",
+      "reward_usd": 1000.0,
+      "currency": "USD",
+      "repo": "Dasharo/dasharo-issues",
+      "issue": 1273,
+      "issue_url": "https://github.com/Dasharo/dasharo-issues/issues/1273",
+      "org": "Dasharo",
+      "source": "github_label",
+      "first_seen_at": "2026-05-20T10:49:01.799726+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 8,
+        "solvability": 4,
+        "merge_probability": 0.45,
+        "estimated_hours": 80.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 9,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-tinygrad-tinygrad-3039",
+      "hash": "tinygrad/tinygrad#3039",
+      "title": "Bounty: Fast parallel scan (Mamba, etc). ",
+      "reward": "$500",
+      "reward_usd": 500.0,
+      "currency": "USD",
+      "repo": "tinygrad/tinygrad",
+      "issue": 3039,
+      "issue_url": "https://github.com/tinygrad/tinygrad/issues/3039",
+      "org": "tinygrad",
+      "source": "github_label",
+      "first_seen_at": "2026-05-20T10:49:01.799370+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 7,
+        "solvability": 6,
+        "merge_probability": 0.74,
+        "estimated_hours": 32.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 16,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "HxNA2NKPkev39N2W",
+      "hash": "jlcsearch#92",
+      "title": "Add `is_extended_promotional ` column to components (from data source)",
+      "reward": "$1",
+      "reward_usd": 1.0,
+      "currency": "USD",
+      "repo": "jlcsearch/jlcsearch",
+      "issue": 92,
+      "issue_url": "https://github.com/jlcsearch/jlcsearch/issues/92",
+      "org": "Guzzzzzzzz",
+      "source": "algora",
+      "first_seen_at": "2026-05-20T09:12:33.075498+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": "error",
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "1pum2oqraFeWsER5",
+      "hash": "PX4-Autopilot#19970",
+      "title": "[Project Tracker] Sensor configuration display UI",
+      "reward": "$20",
+      "reward_usd": 20.0,
+      "currency": "USD",
+      "repo": "PX4-Autopilot/PX4-Autopilot",
+      "issue": 19970,
+      "issue_url": "https://github.com/PX4-Autopilot/PX4-Autopilot/issues/19970",
+      "org": "pmjnt",
+      "source": "algora",
+      "first_seen_at": "2026-05-20T07:34:30.344534+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": "error",
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "WjW1GSH5h7hxjfZR",
+      "hash": "coolify#6696",
+      "title": "feat(oauth): add generic oidc provider",
+      "reward": "$20",
+      "reward_usd": 20.0,
+      "currency": "USD",
+      "repo": "coolify/coolify",
+      "issue": 6696,
+      "issue_url": "https://github.com/coolify/coolify/issues/6696",
+      "org": "jeffreyhugh",
+      "source": "algora",
+      "first_seen_at": "2026-05-20T04:35:24.221429+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": "error",
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "XpqzjAj9W3HvYvbU",
+      "hash": "AgentOrchestration#78",
+      "title": "[ Bounty $6k ] [ Docker ] Remove build arguments from final layers \u2014 image metadata",
+      "reward": "$6",
+      "reward_usd": 6.0,
+      "currency": "USD",
+      "repo": "AgentOrchestration/AgentOrchestration",
+      "issue": 78,
+      "issue_url": "https://github.com/AgentOrchestration/AgentOrchestration/issues/78",
+      "org": "mkcash",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T22:16:14.298849+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": "error",
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "ageAsbScFyRznbBs",
+      "hash": "AgentOrchestration#42",
+      "title": "[ Bounty $9k ] [ Runtime ] Stop retry loop after terminal run state \u2014 retry runtime",
+      "reward": "$9",
+      "reward_usd": 9.0,
+      "currency": "USD",
+      "repo": "AgentOrchestration/AgentOrchestration",
+      "issue": 42,
+      "issue_url": "https://github.com/AgentOrchestration/AgentOrchestration/issues/42",
+      "org": "mkcash",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T20:37:11.117743+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": "error",
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "gh-Scottcjn-rustchain-bounties-696",
+      "hash": "Scottcjn/rustchain-bounties#696",
+      "title": "Meme Bounty: Post RustChain Memes on Social Media (2 RTC each)",
+      "reward": "$15",
+      "reward_usd": 15.0,
+      "currency": "USD",
+      "repo": "Scottcjn/rustchain-bounties",
+      "issue": 696,
+      "issue_url": "https://github.com/Scottcjn/rustchain-bounties/issues/696",
+      "org": "Scottcjn",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T19:34:24.468875+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 3,
+        "merge_probability": 0.5,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 21,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "audit-code4rena-/audits/2025-11-sukukfi",
+      "hash": "code4rena/contest/audits/2025-11-sukukfi",
+      "title": "[Audit] (html-only)",
+      "reward": "$?",
+      "reward_usd": null,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "code4rena",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T19:34:24.466383+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "audit-code4rena-/audits/2025-05-blackhole",
+      "hash": "code4rena/contest/audits/2025-05-blackhole",
+      "title": "[Audit] (html-only)",
+      "reward": "$?",
+      "reward_usd": null,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "code4rena",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T18:29:32.783434+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "audit-code4rena-/audits/2025-05-silo-finance-m",
+      "hash": "code4rena/contest/audits/2025-05-silo-finance-mitigation-review",
+      "title": "[Audit] (html-only)",
+      "reward": "$?",
+      "reward_usd": null,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "code4rena",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T18:29:32.781232+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "audit-code4rena-/audits/2025-04-virtuals-proto",
+      "hash": "code4rena/contest/audits/2025-04-virtuals-protocol",
+      "title": "[Audit] (html-only)",
+      "reward": "$?",
+      "reward_usd": null,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "code4rena",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T17:21:34.242155+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "audit-code4rena-/audits/2025-12-panoptic-next-",
+      "hash": "code4rena/contest/audits/2025-12-panoptic-next-core",
+      "title": "[Audit] (html-only)",
+      "reward": "$?",
+      "reward_usd": null,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "code4rena",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T17:21:34.240074+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "audit-code4rena-/audits/2025-11-brix-money",
+      "hash": "code4rena/contest/audits/2025-11-brix-money",
+      "title": "[Audit] (html-only)",
+      "reward": "$?",
+      "reward_usd": null,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "code4rena",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T17:21:01.803519+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "audit-code4rena-/audits/2025-08-solana-foundat",
+      "hash": "code4rena/contest/audits/2025-08-solana-foundation",
+      "title": "[Audit] (html-only)",
+      "reward": "$?",
+      "reward_usd": null,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "code4rena",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T17:21:01.803217+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "audit-code4rena-/audits/2025-08-meteora-dynami",
+      "hash": "code4rena/contest/audits/2025-08-meteora-dynamic-bonding-curve",
+      "title": "[Audit] (html-only)",
+      "reward": "$?",
+      "reward_usd": null,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "code4rena",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T17:21:01.803065+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "audit-code4rena-/audits/2025-08-morpheus",
+      "hash": "code4rena/contest/audits/2025-08-morpheus",
+      "title": "[Audit] (html-only)",
+      "reward": "$?",
+      "reward_usd": null,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "code4rena",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T17:21:01.802904+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    }
+  ]
+}
