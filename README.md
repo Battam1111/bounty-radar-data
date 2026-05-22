@@ -20,16 +20,3 @@ Public feed updates every 30 min. **For real-time alerts, private Telegram chann
 ## License
 
 MIT — see LICENSE.
-
----
-
-<!-- related-projects:start -->
-
-## Related projects
-
-- [**bounty-radar-mcp**](https://github.com/Battam1111/bounty-radar-mcp) — MCP server — query this feed from any MCP client
-- [**midnight-zk-cookbook**](https://github.com/Battam1111/midnight-zk-cookbook) — ZK tutorials + paid audits + bundles
-- [**zk-pipeline-doctor**](https://github.com/Battam1111/zk-pipeline-doctor) — OSS CLI for auditing ZK projects
-- [**zk-doctor-action**](https://github.com/Battam1111/zk-doctor-action) — GitHub Action wrapping the CLI
-
-<!-- related-projects:end -->
