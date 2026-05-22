@@ -1,100 +1,177 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"/>
-<title>Bounty Radar Pro — Live Feed</title>
-<meta name="description" content="Multi-ecosystem ZK + AI bounty firehose. Updated every 30 minutes. 11 ecosystems including Midnight, Aleo, Noir, Aztec, Stacks, Starknet, Mina, risc0.">
-<meta property="og:title" content="Bounty Radar Pro"/>
-<meta property="og:description" content="ZK + AI bounty intelligence feed, updated every 30min"/>
+<title>Bounty Radar — Live ZK + AI Bounty Firehose</title>
+<meta name="description" content="Live feed of open zero-knowledge bounties across 11 ecosystems (Aleo, Noir, Midnight, Aztec, Starknet, RISC Zero, SP1, Plonky3, and more). Auto-refreshed every 30 minutes. Free tier + paid push-to-Telegram from $19/mo."/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="canonical" href="https://battam1111.github.io/bounty-radar-data/">
+<meta property="og:title" content="Bounty Radar — Live ZK Bounty Firehose"/>
+<meta property="og:description" content="11 ecosystems · 30-min refresh · Free public feed · Real-time push from $19/mo"/>
+<meta property="og:url" content="https://battam1111.github.io/bounty-radar-data/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="https://battam1111.github.io/bounty-radar-data/og.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Bounty Radar — Live ZK Bounty Firehose"/>
+<meta name="twitter:description" content="11 ecosystems · 30-min refresh · From $19/mo for real-time push"/>
+<meta name="twitter:image" content="https://battam1111.github.io/bounty-radar-data/og.png"/>
+<meta name="twitter:creator" content="@Battam1111"/>
 <link rel="alternate" type="application/rss+xml" title="Bounty Radar RSS" href="feed.xml"/>
+<link rel="sitemap" type="application/xml" href="sitemap.xml"/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "ZK Bounty Radar Feed",
+  "description": "Live feed of open zero-knowledge bounties scraped every 30 minutes across 11 ZK ecosystems plus AI-agent platforms. Free public tier; paid subscriptions for real-time push.",
+  "url": "https://battam1111.github.io/bounty-radar-data/",
+  "license": "https://opensource.org/licenses/MIT",
+  "creator": {"@type": "Person", "name": "Battam1111", "url": "https://github.com/Battam1111"},
+  "isAccessibleForFree": true,
+  "distribution": [
+    {"@type": "DataDownload", "name": "Full feed JSON", "contentUrl": "https://battam1111.github.io/bounty-radar-data/feed.json", "encodingFormat": "application/json"},
+    {"@type": "DataDownload", "name": "Free preview JSON", "contentUrl": "https://battam1111.github.io/bounty-radar-data/feed-free.json", "encodingFormat": "application/json"},
+    {"@type": "DataDownload", "name": "RSS feed", "contentUrl": "https://battam1111.github.io/bounty-radar-data/feed.xml", "encodingFormat": "application/rss+xml"}
+  ],
+  "temporalCoverage": "2026-05/..",
+  "keywords": "zero-knowledge proofs, ZK, bounty, Aleo, Noir, Midnight, Cairo, Starknet, RISC Zero, Aztec, SP1, Plonky3"
+}
+</script>
+
 <style>
-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;max-width:1200px;margin:auto;padding:24px;line-height:1.5;color:#222}
-h1{margin-bottom:4px}
-.sub{color:#666;margin-bottom:24px}
-table{border-collapse:collapse;width:100%;font-size:14px}
-th,td{padding:8px 10px;text-align:left;border-bottom:1px solid #eee;vertical-align:top}
+body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;max-width:1100px;margin:auto;padding:24px;line-height:1.55;color:#1a1a1a;background:#fff}
+h1{margin-bottom:4px;font-size:2em}
+.sub{color:#555;margin-bottom:24px;font-size:1.05em}
+.live-stats{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0 1.5rem 0}
+.stat{padding:12px 18px;background:#f0f3f8;border-radius:8px;min-width:130px}
+.stat-label{font-size:11px;text-transform:uppercase;color:#666;letter-spacing:0.5px}
+.stat-value{font-size:1.6em;font-weight:700;color:#0353c6}
+.section-h{margin-top:2.5rem;border-bottom:1px solid #ddd;padding-bottom:6px}
+table{border-collapse:collapse;width:100%;font-size:14px;margin:1rem 0}
+th,td{padding:8px 12px;text-align:left;border-bottom:1px solid #eee;vertical-align:top}
 th{background:#f7f7f7;font-weight:600}
-tr:hover{background:#fafafa}
-a{color:#0353c6;text-decoration:none}
-a:hover{text-decoration:underline}
-.tier{display:inline-block;background:#0353c6;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;margin-right:8px;margin-bottom:8px}
-.tier:hover{background:#022f7a;text-decoration:none}
+.tier-buttons{display:flex;flex-wrap:wrap;gap:8px;margin:1rem 0}
+.tier{padding:10px 18px;background:#0353c6;color:white;border-radius:6px;text-decoration:none;font-weight:500;display:inline-block}
+.tier:hover{opacity:0.9}
 .tier.pro{background:#a040c0}
 .tier.team{background:#c04060}
+.tier.bundle{background:#5cb85c}
+.tier.audit{background:#f0ad4e;color:#222}
+.embed-preview{border:1px solid #ddd;border-radius:8px;overflow:hidden;margin:1rem 0;max-width:680px}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid #ddd;color:#666;font-size:13px}
-</style></head>
-<body>
-<h1>🎯 Bounty Radar Pro — Live Feed</h1>
-<p class="sub">Multi-ecosystem ZK + AI bounty firehose. 11 ecosystems. Updated every 30 min.</p>
+footer a{color:#0353c6}
+code{background:#f3f3f3;padding:2px 5px;border-radius:3px;font-size:0.92em}
+</style>
+</head><body>
 
-<p>
-  <a class="tier" href="https://polar.sh/checkout/polar_c_BbZbN6eJnZ7rwsUfT1pMsj4lTftwnfMoGdWBo0KozKU">$19/mo — Hobbyist (Telegram + radar)</a>
-  <a class="tier pro" href="https://polar.sh/checkout/polar_c_CKKhyOq11BHuG2AulflWkm53YU98pLdrNo22h3OlB4O">$97/mo — Pro (real-time API + heat-map)</a>
-  <a class="tier team" href="https://polar.sh/checkout/polar_c_bT1FpxfzlShI3PcdHxTrHeJf8EVO1AFaWbFc90Z9mfC">$497/mo — Team (10 seats + white-label)</a>
+<h1>Bounty Radar</h1>
+<p class="sub">Live firehose of open ZK + AI bounties across 11 ecosystems. Auto-refreshed every 30 min. Free public tier; paid push-to-Telegram from $19/mo.</p>
+
+<div class="live-stats" id="live-stats">
+  <div class="stat"><div class="stat-label">Open bounties</div><div class="stat-value" id="stat-open">—</div></div>
+  <div class="stat"><div class="stat-label">Total pool</div><div class="stat-value" id="stat-pool">—</div></div>
+  <div class="stat"><div class="stat-label">Ecosystems</div><div class="stat-value" id="stat-eco">—</div></div>
+  <div class="stat"><div class="stat-label">Last refresh</div><div class="stat-value" id="stat-refresh" style="font-size:1em">—</div></div>
+</div>
+
+<h2 class="section-h">Live data — free</h2>
+<p>Browse, download, query. All formats updated every 30 min by an autonomous scanner.</p>
+<ul>
+  <li><a href="feed.json"><code>feed.json</code></a> — full JSON, top 200 bounties</li>
+  <li><a href="feed-free.json"><code>feed-free.json</code></a> — preview JSON, top 20</li>
+  <li><a href="feed.xml"><code>feed.xml</code></a> — Atom RSS for readers</li>
+  <li><a href="ecosystems.json"><code>ecosystems.json</code></a> — per-ecosystem sub-feed index</li>
+  <li><a href="weekly/"><code>weekly/</code></a> — Sunday auto-stats reports</li>
+  <li><a href="widget.html">embeddable widget</a> — drop a live list into any site (<a href="widget-embed.md">docs</a>)</li>
+  <li><a href="https://github.com/Battam1111/bounty-radar-mcp">MCP server</a> — query the feed from Claude Desktop / Cursor / any MCP client</li>
+</ul>
+
+<h2 class="section-h">Per-ecosystem sub-feeds</h2>
+<p>Each refreshes alongside the main feed every 30 min:</p>
+<ul style="columns:2;max-width:680px;">
+  <li><a href="aleo.json">aleo.json</a></li>
+  <li><a href="noir.json">noir.json</a></li>
+  <li><a href="midnight.json">midnight.json</a></li>
+  <li><a href="aztec.json">aztec.json</a></li>
+  <li><a href="starknet.json">starknet.json</a></li>
+  <li><a href="cairo.json">cairo.json</a></li>
+  <li><a href="stacks.json">stacks.json</a></li>
+  <li><a href="mina.json">mina.json</a></li>
+  <li><a href="risc0.json">risc0.json</a></li>
+  <li><a href="sp1.json">sp1.json</a></li>
+  <li><a href="plonky3.json">plonky3.json</a></li>
+</ul>
+
+<h2 class="section-h">Pricing — Why pay if the feed is free?</h2>
+
+<p>The free tier is a <strong>polling</strong> service. You check the website (or grep the JSON) when you want updates. Paid tiers are a <strong>push</strong> service — the bounty comes to you, filtered to what matters.</p>
+
+<table>
+<thead><tr><th>Feature</th><th>Free</th><th>$19/mo · Hobbyist</th><th>$97/mo · Pro</th><th>$497/mo · Team</th></tr></thead>
+<tbody>
+<tr><td>Live web feed + JSON + RSS + sub-feeds</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><td>MCP server access</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><td><strong>Push to your Telegram on new match</strong></td><td>—</td><td>1 filter</td><td>unlimited filters</td><td>unlimited filters</td></tr>
+<tr><td><strong>HMAC-signed webhook to your URL</strong></td><td>—</td><td>—</td><td>✓</td><td>✓</td></tr>
+<tr><td>Filter by ecosystem / reward / keywords</td><td>—</td><td>1 ecosystem</td><td>combine all</td><td>combine all</td></tr>
+<tr><td>Weekly digest email</td><td>—</td><td>—</td><td>✓</td><td>✓</td></tr>
+<tr><td>Shared Slack / Discord channel</td><td>—</td><td>—</td><td>—</td><td>✓</td></tr>
+<tr><td>Custom detector requests for zk-pipeline-doctor</td><td>—</td><td>—</td><td>—</td><td>✓</td></tr>
+<tr><td>Seats</td><td>—</td><td>1</td><td>1</td><td>up to 5</td></tr>
+</tbody>
+</table>
+
+<div class="tier-buttons">
+<a class="tier" href="__HOBBYIST_URL__">Hobbyist · $19/mo</a>
+<a class="tier pro" href="__PRO_URL__">Pro · $97/mo</a>
+<a class="tier team" href="__TEAM_URL__">Team · $497/mo</a>
+</div>
+
+<p style="font-size:13px;color:#666;">All payments via <a href="https://polar.sh">Polar.sh</a> (Merchant of Record). 14-day money-back guarantee. Cancel anytime from your customer portal.</p>
+
+<h2 class="section-h">One-time products</h2>
+
+<div class="tier-buttons">
+<a class="tier bundle" href="https://polar.sh/checkout/polar_c_6CqAq70gZIe8bmUOyrKMYQkLSYXS7t9aY3yxy4TFovi">Cookbook Bundle · $15</a>
+<a class="tier" href="https://polar.sh/checkout/polar_c_rtEpLig3NXQmT8aLSh0esDlQEy43HK8wWrjS44VZaIC">Bounty Hunter Playbook · $29</a>
+<a class="tier audit" href="https://polar.sh/checkout/polar_c_gXO0FivhPZEULEbuWnpznkLPFdL2Koz68AvG93YoWFb">Pre-Flight Audit · $99</a>
+</div>
+
+<p style="font-size:13px;color:#666;">
+The <a href="https://battam1111.github.io/midnight-zk-cookbook/">Midnight ZK Cookbook</a> has 17 tutorials free to read; the $15 bundle is all of them as a single Markdown + companion code, offline.<br>
+The $99 pre-flight audit runs <a href="https://github.com/Battam1111/zk-pipeline-doctor">zk-pipeline-doctor</a> on your repo + adds a narrated review. <a href="https://battam1111.github.io/bounty-radar-data/audits/sample.html">See sample report →</a> <strong>NOT a substitute for a $10-50k human audit.</strong>
 </p>
 
-<p>📚 <a href="https://battam1111.github.io/midnight-zk-cookbook/">ZK Cookbook</a> ·
-   🛠️ <a href="https://github.com/Battam1111/zk-pipeline-doctor">zk-pipeline-doctor</a> ·
-   📡 <a href="feed.json">JSON</a> ·
-   📰 <a href="feed.xml">RSS</a></p>
+<h2 class="section-h">Live preview — see what subscribers get</h2>
+<p>Below: top 5 bounties right now. Subscribers receive each one as a real-time push the moment it appears.</p>
+<div class="embed-preview"><iframe src="widget.html?limit=5" width="100%" height="380" frameborder="0" style="border:none;"></iframe></div>
 
-<h2>Live (top 50)</h2>
-<table>
-  <thead><tr><th>Reward</th><th>Title</th><th>Repo</th><th>Merge p</th><th>Comments</th><th>Source</th></tr></thead>
-  <tbody>
-<tr><td>$3000</td><td><a href='https://github.com/aLexzzz430/Cognitive-OS/issues/5' target='_blank'>[ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals</a></td><td>aLexzzz430/Cognitive-OS</td><td>55%</td><td>1</td><td>github_label</td></tr>
-<tr><td>$3000</td><td><a href='https://github.com/Scottcjn/Rustchain/issues/819' target='_blank'>[Bounty] @tomisnotcat — ARM architecture details needed (5 RTC)</a></td><td>Scottcjn/Rustchain</td><td>10%</td><td>18</td><td>github_label</td></tr>
-<tr><td>$6000</td><td><a href='https://github.com/orchestration-agent/AgentOrchestration/issues/781' target='_blank'>[ Bounty $6k ] [ Deploy ] Validate feature flag defaults before production rollout — config safety</a></td><td>orchestration-agent/AgentOrchestration</td><td>68%</td><td>1</td><td>github_label</td></tr>
-<tr><td>$1</td><td><a href='https://github.com/bug-bounty/bug-bounty/issues/29' target='_blank'>Implement a fully functional Admin Panel</a></td><td>bug-bounty/bug-bounty</td><td>—</td><td>0</td><td>algora</td></tr>
-<tr><td>$1000</td><td><a href='https://github.com/Dasharo/dasharo-issues/issues/1273' target='_blank'>EC testablity interface</a></td><td>Dasharo/dasharo-issues</td><td>45%</td><td>9</td><td>github_label</td></tr>
-<tr><td>$500</td><td><a href='https://github.com/tinygrad/tinygrad/issues/3039' target='_blank'>Bounty: Fast parallel scan (Mamba, etc). </a></td><td>tinygrad/tinygrad</td><td>74%</td><td>16</td><td>github_label</td></tr>
-<tr><td>$1</td><td><a href='https://github.com/jlcsearch/jlcsearch/issues/92' target='_blank'>Add `is_extended_promotional ` column to components (from data source)</a></td><td>jlcsearch/jlcsearch</td><td>—</td><td>0</td><td>algora</td></tr>
-<tr><td>$20</td><td><a href='https://github.com/PX4-Autopilot/PX4-Autopilot/issues/19970' target='_blank'>[Project Tracker] Sensor configuration display UI</a></td><td>PX4-Autopilot/PX4-Autopilot</td><td>—</td><td>0</td><td>algora</td></tr>
-<tr><td>$20</td><td><a href='https://github.com/coolify/coolify/issues/6696' target='_blank'>feat(oauth): add generic oidc provider</a></td><td>coolify/coolify</td><td>—</td><td>0</td><td>algora</td></tr>
-<tr><td>$6</td><td><a href='https://github.com/AgentOrchestration/AgentOrchestration/issues/78' target='_blank'>[ Bounty $6k ] [ Docker ] Remove build arguments from final layers — image metadata</a></td><td>AgentOrchestration/AgentOrchestration</td><td>—</td><td>0</td><td>algora</td></tr>
-<tr><td>$9</td><td><a href='https://github.com/AgentOrchestration/AgentOrchestration/issues/42' target='_blank'>[ Bounty $9k ] [ Runtime ] Stop retry loop after terminal run state — retry runtime</a></td><td>AgentOrchestration/AgentOrchestration</td><td>—</td><td>0</td><td>algora</td></tr>
-<tr><td>$15</td><td><a href='https://github.com/Scottcjn/rustchain-bounties/issues/696' target='_blank'>Meme Bounty: Post RustChain Memes on Social Media (2 RTC each)</a></td><td>Scottcjn/rustchain-bounties</td><td>50%</td><td>21</td><td>github_label</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr>
-<tr><td>$?</td><td><a href='#' target='_blank'>[Audit] (html-only)</a></td><td>?</td><td>10%</td><td>0</td><td>algora</td></tr></tbody></table>
+<h2 class="section-h">Open-source companions</h2>
+<ul>
+<li><a href="https://github.com/Battam1111/zk-pipeline-doctor">zk-pipeline-doctor</a> — 8-detector ZK project audit CLI (MIT)</li>
+<li><a href="https://github.com/Battam1111/zk-doctor-action">zk-doctor-action</a> — GitHub Action wrapping the CLI (MIT)</li>
+<li><a href="https://github.com/Battam1111/bounty-radar-mcp">bounty-radar-mcp</a> — MCP server for any MCP client (MIT)</li>
+<li><a href="https://battam1111.github.io/midnight-zk-cookbook/">midnight-zk-cookbook</a> — 17 ZK tutorials across 5 ecosystems</li>
+</ul>
 
 <footer>
-  Data updated every 30 min. Public feed shows up to 50 open bounties; full feed (200+) in <code>feed.json</code>.<br/>
-  Built and maintained by <a href="https://github.com/Battam1111">@Battam1111</a> · MIT-licensed scanners ·
-  Want custom signals? <a href="mailto:cyj13143609845@gmail.com">Email us</a>.
+Data scraped from Algora, GitHub labels, Drips Wave, Code4rena, Bountycaster, plus 11 ZK ecosystem repos.
+Powered by a single Mac mini running 24/7 — see the <a href="https://github.com/Battam1111/bounty-radar-data">source</a> and <a href="https://battam1111.github.io/bounty-radar-data/weekly/">weekly reports</a>.
 </footer>
+
+<script>
+fetch('feed.json').then(r => r.json()).then(d => {
+  const total = d.total || (d.bounties || []).length;
+  document.getElementById('stat-open').textContent = total;
+  const pool = (d.bounties || []).reduce((s, b) => s + (b.reward_usd || 0), 0);
+  document.getElementById('stat-pool').textContent = pool >= 1000 ? '$' + Math.round(pool/1000) + 'k' : '$' + pool.toFixed(0);
+  document.getElementById('stat-eco').textContent = (d.ecosystems || []).length;
+  if (d.generated_at) {
+    const ts = new Date(d.generated_at);
+    const now = new Date();
+    const mins = Math.round((now - ts) / 60000);
+    document.getElementById('stat-refresh').textContent = mins < 60 ? mins + ' min ago' : Math.round(mins/60) + 'h ago';
+  }
+}).catch(e => console.warn('stats fetch failed', e));
+</script>
+
 </body></html>
