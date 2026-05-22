@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-22T20:15:18.861841+00:00",
-  "total": 99,
+  "generated_at": "2026-05-22T20:45:25.198561+00:00",
+  "total": 100,
   "sources": [
     "algora",
     "github_label"
@@ -12,6 +12,7 @@
     "JavierChaparroMX",
     "PX4-Autopilot",
     "Scottcjn",
+    "aLexzzz430",
     "brianne-showed",
     "bug-bounty",
     "coolify",
@@ -24,6 +25,32 @@
     "znc"
   ],
   "bounties": [
+    {
+      "id": "gh-aLexzzz430-Cognitive-OS-5",
+      "hash": "aLexzzz430/Cognitive-OS#5",
+      "title": "[ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals",
+      "reward": "$3000",
+      "reward_usd": 3000.0,
+      "currency": "USD",
+      "repo": "aLexzzz430/Cognitive-OS",
+      "issue": 5,
+      "issue_url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5",
+      "org": "aLexzzz430",
+      "source": "github_label",
+      "first_seen_at": "2026-05-22T20:21:46.841103+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 6,
+        "solvability": 4,
+        "merge_probability": 0.55,
+        "estimated_hours": 20.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 1,
+        "linked_prs": 0
+      }
+    },
     {
       "id": "gh-Scottcjn-Rustchain-819",
       "hash": "Scottcjn/Rustchain#819",
@@ -505,32 +532,6 @@
       "org": "code4rena",
       "source": "algora",
       "first_seen_at": "2026-05-19T17:21:01.803065+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "audit-code4rena-/audits/2025-08-morpheus",
-      "hash": "code4rena/contest/audits/2025-08-morpheus",
-      "title": "[Audit] (html-only)",
-      "reward": "$?",
-      "reward_usd": null,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "code4rena",
-      "source": "algora",
-      "first_seen_at": "2026-05-19T17:21:01.802904+00:00",
       "scoring": {
         "go_decision": false,
         "difficulty": 5,
