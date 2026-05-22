@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-05-22T21:07:20.841180+00:00",
+  "sub_feeds": {
+    "midnight": {
+      "url": "https://battam1111.github.io/bounty-radar-data/midnight.json",
+      "bounty_count": 6
+    },
+    "aleo": {
+      "url": "https://battam1111.github.io/bounty-radar-data/aleo.json",
+      "bounty_count": 0
+    },
+    "noir": {
+      "url": "https://battam1111.github.io/bounty-radar-data/noir.json",
+      "bounty_count": 0
+    },
+    "aztec": {
+      "url": "https://battam1111.github.io/bounty-radar-data/aztec.json",
+      "bounty_count": 0
+    },
+    "starknet": {
+      "url": "https://battam1111.github.io/bounty-radar-data/starknet.json",
+      "bounty_count": 0
+    },
+    "cairo": {
+      "url": "https://battam1111.github.io/bounty-radar-data/cairo.json",
+      "bounty_count": 0
+    },
+    "stacks": {
+      "url": "https://battam1111.github.io/bounty-radar-data/stacks.json",
+      "bounty_count": 0
+    },
+    "mina": {
+      "url": "https://battam1111.github.io/bounty-radar-data/mina.json",
+      "bounty_count": 0
+    },
+    "risc0": {
+      "url": "https://battam1111.github.io/bounty-radar-data/risc0.json",
+      "bounty_count": 0
+    },
+    "sp1": {
+      "url": "https://battam1111.github.io/bounty-radar-data/sp1.json",
+      "bounty_count": 0
+    },
+    "plonky3": {
+      "url": "https://battam1111.github.io/bounty-radar-data/plonky3.json",
+      "bounty_count": 0
+    }
+  },
+  "main_feed": "https://battam1111.github.io/bounty-radar-data/feed.json"
+}

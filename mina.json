@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-05-22T21:07:20.841180+00:00",
+  "ecosystem": "mina",
+  "matchers": [
+    "o1-labs",
+    "minaprotocol",
+    "mina-foundation"
+  ],
+  "total": 0,
+  "total_pool_usd": 0,
+  "bounties": [],
+  "upgrade_url": "https://battam1111.github.io/bounty-radar-data/"
+}

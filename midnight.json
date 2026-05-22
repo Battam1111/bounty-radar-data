@@ -1,0 +1,170 @@
+{
+  "generated_at": "2026-05-22T21:07:20.841180+00:00",
+  "ecosystem": "midnight",
+  "matchers": [
+    "midnightntwrk",
+    "midnight-network",
+    "midnightnetwork"
+  ],
+  "total": 6,
+  "total_pool_usd": 5100.0,
+  "bounties": [
+    {
+      "id": "gh-midnightntwrk-contributor-hub-291",
+      "hash": "midnightntwrk/contributor-hub#291",
+      "title": "[Tutorial] Witnesses in Depth: Patterns, Types, and Real Use Cases",
+      "reward": "$700",
+      "reward_usd": 700.0,
+      "currency": "USD",
+      "repo": "midnightntwrk/contributor-hub",
+      "issue": 291,
+      "issue_url": "https://github.com/midnightntwrk/contributor-hub/issues/291",
+      "org": "midnightntwrk",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T09:21:43.362464+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.01,
+        "estimated_hours": 0.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 11,
+        "linked_prs": 1
+      }
+    },
+    {
+      "id": "gh-midnightntwrk-contributor-hub-295",
+      "hash": "midnightntwrk/contributor-hub#295",
+      "title": "[Tutorial] Why ownPublicKey() Can't Be Trusted for Access Control",
+      "reward": "$700",
+      "reward_usd": 700.0,
+      "currency": "USD",
+      "repo": "midnightntwrk/contributor-hub",
+      "issue": 295,
+      "issue_url": "https://github.com/midnightntwrk/contributor-hub/issues/295",
+      "org": "midnightntwrk",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T09:21:43.361658+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.01,
+        "estimated_hours": 0.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 10,
+        "linked_prs": 1
+      }
+    },
+    {
+      "id": "gh-midnightntwrk-contributor-hub-303",
+      "hash": "midnightntwrk/contributor-hub#303",
+      "title": "[Tutorial] Multi-Party Private State and Contracts Between Two+ Users",
+      "reward": "$1000",
+      "reward_usd": 1000.0,
+      "currency": "USD",
+      "repo": "midnightntwrk/contributor-hub",
+      "issue": 303,
+      "issue_url": "https://github.com/midnightntwrk/contributor-hub/issues/303",
+      "org": "midnightntwrk",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T09:21:43.361128+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.05,
+        "estimated_hours": 0.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 11,
+        "linked_prs": 2
+      }
+    },
+    {
+      "id": "gh-midnightntwrk-contributor-hub-304",
+      "hash": "midnightntwrk/contributor-hub#304",
+      "title": "[Tutorial] Bringing External Data On-Chain: Oracle Patterns for Midnight",
+      "reward": "$1000",
+      "reward_usd": 1000.0,
+      "currency": "USD",
+      "repo": "midnightntwrk/contributor-hub",
+      "issue": 304,
+      "issue_url": "https://github.com/midnightntwrk/contributor-hub/issues/304",
+      "org": "midnightntwrk",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T09:21:43.359524+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.05,
+        "estimated_hours": 0.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 13,
+        "linked_prs": 1
+      }
+    },
+    {
+      "id": "gh-midnightntwrk-contributor-hub-312",
+      "hash": "midnightntwrk/contributor-hub#312",
+      "title": "[Tutorial] Testing Compact Contracts: Unit Tests, Assertions, and Local Simulation",
+      "reward": "$700",
+      "reward_usd": 700.0,
+      "currency": "USD",
+      "repo": "midnightntwrk/contributor-hub",
+      "issue": 312,
+      "issue_url": "https://github.com/midnightntwrk/contributor-hub/issues/312",
+      "org": "midnightntwrk",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T09:21:43.358215+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.05,
+        "estimated_hours": 0.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 18,
+        "linked_prs": 1
+      }
+    },
+    {
+      "id": "gh-midnightntwrk-contributor-hub-296",
+      "hash": "midnightntwrk/contributor-hub#296",
+      "title": "[Tutorial] Building a Commit/Reveal Voting System in Compact",
+      "reward": "$1000",
+      "reward_usd": 1000.0,
+      "currency": "USD",
+      "repo": "midnightntwrk/contributor-hub",
+      "issue": 296,
+      "issue_url": "https://github.com/midnightntwrk/contributor-hub/issues/296",
+      "org": "midnightntwrk",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T09:21:43.355966+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.02,
+        "estimated_hours": 0.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 14,
+        "linked_prs": 2
+      }
+    }
+  ],
+  "upgrade_url": "https://battam1111.github.io/bounty-radar-data/"
+}
