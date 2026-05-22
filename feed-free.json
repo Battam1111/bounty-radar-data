@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-22T17:42:59.565124+00:00",
-  "total": 99,
+  "generated_at": "2026-05-22T17:44:40.310698+00:00",
+  "total": 102,
   "sources": [
     "algora",
     "github_label"
@@ -24,6 +24,84 @@
     "znc"
   ],
   "bounties": [
+    {
+      "id": "gh-orchestration-agent-AgentOrchestration-2531",
+      "hash": "orchestration-agent/AgentOrchestration#2531",
+      "title": "[ Bounty $4k ] [ CI ] Fail SBOM generation on dependency resolution errors \u2014 supply-chain reporting",
+      "reward": "$4000",
+      "reward_usd": 4000.0,
+      "currency": "USD",
+      "repo": "orchestration-agent/AgentOrchestration",
+      "issue": 2531,
+      "issue_url": "https://github.com/orchestration-agent/AgentOrchestration/issues/2531",
+      "org": "orchestration-agent",
+      "source": "github_label",
+      "first_seen_at": "2026-05-22T17:44:10.126202+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "gh-orchestration-agent-AgentOrchestration-2525",
+      "hash": "orchestration-agent/AgentOrchestration#2525",
+      "title": "[ Bounty $5k ] [ Deploy ] Include queue backlog in canary decision \u2014 worker autoscaling",
+      "reward": "$5000",
+      "reward_usd": 5000.0,
+      "currency": "USD",
+      "repo": "orchestration-agent/AgentOrchestration",
+      "issue": 2525,
+      "issue_url": "https://github.com/orchestration-agent/AgentOrchestration/issues/2525",
+      "org": "orchestration-agent",
+      "source": "github_label",
+      "first_seen_at": "2026-05-22T17:44:10.125834+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "gh-orchestration-agent-AgentOrchestration-2537",
+      "hash": "orchestration-agent/AgentOrchestration#2537",
+      "title": "[ Bounty $7k ] [ Storage ] Enforce row-level workspace scope on task state \u2014 database access",
+      "reward": "$7000",
+      "reward_usd": 7000.0,
+      "currency": "USD",
+      "repo": "orchestration-agent/AgentOrchestration",
+      "issue": 2537,
+      "issue_url": "https://github.com/orchestration-agent/AgentOrchestration/issues/2537",
+      "org": "orchestration-agent",
+      "source": "github_label",
+      "first_seen_at": "2026-05-22T17:44:10.125346+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
     {
       "id": "gh-Scottcjn-Rustchain-819",
       "hash": "Scottcjn/Rustchain#819",
@@ -453,84 +531,6 @@
       "org": "code4rena",
       "source": "algora",
       "first_seen_at": "2026-05-19T17:21:01.803519+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "audit-code4rena-/audits/2025-08-solana-foundat",
-      "hash": "code4rena/contest/audits/2025-08-solana-foundation",
-      "title": "[Audit] (html-only)",
-      "reward": "$?",
-      "reward_usd": null,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "code4rena",
-      "source": "algora",
-      "first_seen_at": "2026-05-19T17:21:01.803217+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "audit-code4rena-/audits/2025-08-meteora-dynami",
-      "hash": "code4rena/contest/audits/2025-08-meteora-dynamic-bonding-curve",
-      "title": "[Audit] (html-only)",
-      "reward": "$?",
-      "reward_usd": null,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "code4rena",
-      "source": "algora",
-      "first_seen_at": "2026-05-19T17:21:01.803065+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "audit-code4rena-/audits/2025-08-morpheus",
-      "hash": "code4rena/contest/audits/2025-08-morpheus",
-      "title": "[Audit] (html-only)",
-      "reward": "$?",
-      "reward_usd": null,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "code4rena",
-      "source": "algora",
-      "first_seen_at": "2026-05-19T17:21:01.802904+00:00",
       "scoring": {
         "go_decision": false,
         "difficulty": 5,
