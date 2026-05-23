@@ -1,4 +1,4 @@
-# Bounty Radar Pro: Public Data Feed
+# Bounty Radar Pro — Public Data Feed
 
 Live JSON + RSS feed of open ZK / AI bounties across 11 ecosystems (Algora, GitHub labels, Drips Wave, Code4rena, Bountycaster, Midnight, Aleo, Noir, Aztec, Stacks, Starknet, Mina, risc0).
 
@@ -19,4 +19,4 @@ Public feed updates every 30 min. **For real-time alerts, private Telegram chann
 
 ## License
 
-MIT (see LICENSE).
+MIT — see LICENSE.
