@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"/>
-<title>Bounty Radar — Live ZK + AI Bounty Firehose</title>
+<title>Bounty Radar; Live ZK + AI Bounty Firehose</title>
 <meta name="description" content="Live feed of open zero-knowledge bounties across 11 ecosystems (Aleo, Noir, Midnight, Aztec, Starknet, RISC Zero, SP1, Plonky3, and more). Auto-refreshed every 30 minutes. Free tier + paid push-to-Telegram from $19/mo."/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <link rel="canonical" href="https://battam1111.github.io/bounty-radar-data/">
-<meta property="og:title" content="Bounty Radar — Live ZK Bounty Firehose"/>
+<meta property="og:title" content="Bounty Radar; Live ZK Bounty Firehose"/>
 <meta property="og:description" content="11 ecosystems · 30-min refresh · Free public feed · Real-time push from $19/mo"/>
 <meta property="og:url" content="https://battam1111.github.io/bounty-radar-data/"/>
 <meta property="og:type" content="website"/>
 <meta property="og:image" content="https://battam1111.github.io/bounty-radar-data/og.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Bounty Radar — Live ZK Bounty Firehose"/>
+<meta name="twitter:title" content="Bounty Radar; Live ZK Bounty Firehose"/>
 <meta name="twitter:description" content="11 ecosystems · 30-min refresh · From $19/mo for real-time push"/>
 <meta name="twitter:image" content="https://battam1111.github.io/bounty-radar-data/og.png"/>
 <meta name="twitter:creator" content="@Battam1111"/>
@@ -67,22 +67,22 @@ code{background:#f3f3f3;padding:2px 5px;border-radius:3px;font-size:0.92em}
 <p class="sub">Live firehose of open ZK + AI bounties across 11 ecosystems. Auto-refreshed every 30 min. Free public tier; paid push-to-Telegram from $19/mo.</p>
 
 <div class="live-stats" id="live-stats">
-  <div class="stat"><div class="stat-label">Open bounties</div><div class="stat-value" id="stat-open">—</div></div>
-  <div class="stat"><div class="stat-label">Total pool</div><div class="stat-value" id="stat-pool">—</div></div>
-  <div class="stat"><div class="stat-label">Ecosystems</div><div class="stat-value" id="stat-eco">—</div></div>
-  <div class="stat"><div class="stat-label">Last refresh</div><div class="stat-value" id="stat-refresh" style="font-size:1em">—</div></div>
+  <div class="stat"><div class="stat-label">Open bounties</div><div class="stat-value" id="stat-open">,</div></div>
+  <div class="stat"><div class="stat-label">Total pool</div><div class="stat-value" id="stat-pool">,</div></div>
+  <div class="stat"><div class="stat-label">Ecosystems</div><div class="stat-value" id="stat-eco">,</div></div>
+  <div class="stat"><div class="stat-label">Last refresh</div><div class="stat-value" id="stat-refresh" style="font-size:1em">,</div></div>
 </div>
 
-<h2 class="section-h">Live data — free</h2>
+<h2 class="section-h">Live data; free</h2>
 <p>Browse, download, query. All formats updated every 30 min by an autonomous scanner.</p>
 <ul>
-  <li><a href="feed.json"><code>feed.json</code></a> — full JSON, top 200 bounties</li>
-  <li><a href="feed-free.json"><code>feed-free.json</code></a> — preview JSON, top 20</li>
-  <li><a href="feed.xml"><code>feed.xml</code></a> — Atom RSS for readers</li>
-  <li><a href="ecosystems.json"><code>ecosystems.json</code></a> — per-ecosystem sub-feed index</li>
-  <li><a href="weekly/"><code>weekly/</code></a> — Sunday auto-stats reports</li>
-  <li><a href="widget.html">embeddable widget</a> — drop a live list into any site (<a href="widget-embed.md">docs</a>)</li>
-  <li><a href="https://github.com/Battam1111/bounty-radar-mcp">MCP server</a> — query the feed from Claude Desktop / Cursor / any MCP client</li>
+  <li><a href="feed.json"><code>feed.json</code></a>; full JSON, top 200 bounties</li>
+  <li><a href="feed-free.json"><code>feed-free.json</code></a>; preview JSON, top 20</li>
+  <li><a href="feed.xml"><code>feed.xml</code></a>; Atom RSS for readers</li>
+  <li><a href="ecosystems.json"><code>ecosystems.json</code></a>; per-ecosystem sub-feed index</li>
+  <li><a href="weekly/"><code>weekly/</code></a>; Sunday auto-stats reports</li>
+  <li><a href="widget.html">embeddable widget</a>; drop a live list into any site (<a href="widget-embed.md">docs</a>)</li>
+  <li><a href="https://github.com/Battam1111/bounty-radar-mcp">MCP server</a>; query the feed from Claude Desktop / Cursor / any MCP client</li>
 </ul>
 
 <h2 class="section-h">Per-ecosystem sub-feeds</h2>
@@ -101,22 +101,22 @@ code{background:#f3f3f3;padding:2px 5px;border-radius:3px;font-size:0.92em}
   <li><a href="plonky3.json">plonky3.json</a></li>
 </ul>
 
-<h2 class="section-h">Pricing — Why pay if the feed is free?</h2>
+<h2 class="section-h">Pricing; Why pay if the feed is free?</h2>
 
-<p>The free tier is a <strong>polling</strong> service. You check the website (or grep the JSON) when you want updates. Paid tiers are a <strong>push</strong> service — the bounty comes to you, filtered to what matters.</p>
+<p>The free tier is a <strong>polling</strong> service. You check the website (or grep the JSON) when you want updates. Paid tiers are a <strong>push</strong> service; the bounty comes to you, filtered to what matters.</p>
 
 <table>
 <thead><tr><th>Feature</th><th>Free</th><th>$19/mo · Hobbyist</th><th>$97/mo · Pro</th><th>$497/mo · Team</th></tr></thead>
 <tbody>
 <tr><td>Live web feed + JSON + RSS + sub-feeds</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
 <tr><td>MCP server access</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
-<tr><td><strong>Push to your Telegram on new match</strong></td><td>—</td><td>1 filter</td><td>unlimited filters</td><td>unlimited filters</td></tr>
-<tr><td><strong>HMAC-signed webhook to your URL</strong></td><td>—</td><td>—</td><td>✓</td><td>✓</td></tr>
-<tr><td>Filter by ecosystem / reward / keywords</td><td>—</td><td>1 ecosystem</td><td>combine all</td><td>combine all</td></tr>
-<tr><td>Weekly digest email</td><td>—</td><td>—</td><td>✓</td><td>✓</td></tr>
-<tr><td>Shared Slack / Discord channel</td><td>—</td><td>—</td><td>—</td><td>✓</td></tr>
-<tr><td>Custom detector requests for zk-pipeline-doctor</td><td>—</td><td>—</td><td>—</td><td>✓</td></tr>
-<tr><td>Seats</td><td>—</td><td>1</td><td>1</td><td>up to 5</td></tr>
+<tr><td><strong>Push to your Telegram on new match</strong></td><td>,</td><td>1 filter</td><td>unlimited filters</td><td>unlimited filters</td></tr>
+<tr><td><strong>HMAC-signed webhook to your URL</strong></td><td>,</td><td>,</td><td>✓</td><td>✓</td></tr>
+<tr><td>Filter by ecosystem / reward / keywords</td><td>,</td><td>1 ecosystem</td><td>combine all</td><td>combine all</td></tr>
+<tr><td>Weekly digest email</td><td>,</td><td>,</td><td>✓</td><td>✓</td></tr>
+<tr><td>Shared Slack / Discord channel</td><td>,</td><td>,</td><td>,</td><td>✓</td></tr>
+<tr><td>Custom detector requests for zk-pipeline-doctor</td><td>,</td><td>,</td><td>,</td><td>✓</td></tr>
+<tr><td>Seats</td><td>,</td><td>1</td><td>1</td><td>up to 5</td></tr>
 </tbody>
 </table>
 
@@ -141,21 +141,21 @@ The <a href="https://battam1111.github.io/midnight-zk-cookbook/">Midnight ZK Coo
 The $99 pre-flight audit runs <a href="https://github.com/Battam1111/zk-pipeline-doctor">zk-pipeline-doctor</a> on your repo + adds a narrated review. <a href="https://battam1111.github.io/bounty-radar-data/audits/sample.html">See sample report →</a> <strong>NOT a substitute for a $10-50k human audit.</strong>
 </p>
 
-<h2 class="section-h">Live preview — see what subscribers get</h2>
+<h2 class="section-h">Live preview; see what subscribers get</h2>
 <p>Below: top 5 bounties right now. Subscribers receive each one as a real-time push the moment it appears.</p>
 <div class="embed-preview"><iframe src="widget.html?limit=5" width="100%" height="380" frameborder="0" style="border:none;"></iframe></div>
 
 <h2 class="section-h">Open-source companions</h2>
 <ul>
-<li><a href="https://github.com/Battam1111/zk-pipeline-doctor">zk-pipeline-doctor</a> — 8-detector ZK project audit CLI (MIT)</li>
-<li><a href="https://github.com/Battam1111/zk-doctor-action">zk-doctor-action</a> — GitHub Action wrapping the CLI (MIT)</li>
-<li><a href="https://github.com/Battam1111/bounty-radar-mcp">bounty-radar-mcp</a> — MCP server for any MCP client (MIT)</li>
-<li><a href="https://battam1111.github.io/midnight-zk-cookbook/">midnight-zk-cookbook</a> — 17 ZK tutorials across 5 ecosystems</li>
+<li><a href="https://github.com/Battam1111/zk-pipeline-doctor">zk-pipeline-doctor</a>; 8-detector ZK project audit CLI (MIT)</li>
+<li><a href="https://github.com/Battam1111/zk-doctor-action">zk-doctor-action</a>; GitHub Action wrapping the CLI (MIT)</li>
+<li><a href="https://github.com/Battam1111/bounty-radar-mcp">bounty-radar-mcp</a>; MCP server for any MCP client (MIT)</li>
+<li><a href="https://battam1111.github.io/midnight-zk-cookbook/">midnight-zk-cookbook</a>; 17 ZK tutorials across 5 ecosystems</li>
 </ul>
 
 <footer>
 Data scraped from Algora, GitHub labels, Drips Wave, Code4rena, Bountycaster, plus 11 ZK ecosystem repos.
-Powered by a single Mac mini running 24/7 — see the <a href="https://github.com/Battam1111/bounty-radar-data">source</a> and <a href="https://battam1111.github.io/bounty-radar-data/weekly/">weekly reports</a>.
+Powered by a single Mac mini running 24/7; see the <a href="https://github.com/Battam1111/bounty-radar-data">source</a> and <a href="https://battam1111.github.io/bounty-radar-data/weekly/">weekly reports</a>.
 </footer>
 
 <script>
