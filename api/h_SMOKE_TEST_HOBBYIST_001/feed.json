@@ -1,0 +1,535 @@
+{
+  "generated_at": "2026-05-23T11:23:50.789845+00:00",
+  "tier": "hobbyist",
+  "license_key_tail": "ST_001",
+  "filter": {
+    "min_reward_usd": 100
+  },
+  "total": 20,
+  "bounties": [
+    {
+      "id": "gh-aLexzzz430-Cognitive-OS-5",
+      "hash": "aLexzzz430/Cognitive-OS#5",
+      "title": "[ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals",
+      "reward": "$3000",
+      "reward_usd": 3000.0,
+      "currency": "USD",
+      "repo": "aLexzzz430/Cognitive-OS",
+      "issue": 5,
+      "issue_url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5",
+      "org": "aLexzzz430",
+      "source": "github_label",
+      "first_seen_at": "2026-05-22T20:21:46.841103+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 6,
+        "solvability": 4,
+        "merge_probability": 0.55,
+        "estimated_hours": 20.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 1,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-Scottcjn-Rustchain-819",
+      "hash": "Scottcjn/Rustchain#819",
+      "title": "[Bounty] @tomisnotcat \u2014 ARM architecture details needed (5 RTC)",
+      "reward": "$3000",
+      "reward_usd": 3000.0,
+      "currency": "USD",
+      "repo": "Scottcjn/Rustchain",
+      "issue": 819,
+      "issue_url": "https://github.com/Scottcjn/Rustchain/issues/819",
+      "org": "Scottcjn",
+      "source": "github_label",
+      "first_seen_at": "2026-05-21T05:52:38.271098+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 1,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 0.5
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 18,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-orchestration-agent-AgentOrchestration-781",
+      "hash": "orchestration-agent/AgentOrchestration#781",
+      "title": "[ Bounty $6k ] [ Deploy ] Validate feature flag defaults before production rollout \u2014 config safety",
+      "reward": "$6000",
+      "reward_usd": 6000.0,
+      "currency": "USD",
+      "repo": "orchestration-agent/AgentOrchestration",
+      "issue": 781,
+      "issue_url": "https://github.com/orchestration-agent/AgentOrchestration/issues/781",
+      "org": "orchestration-agent",
+      "source": "github_label",
+      "first_seen_at": "2026-05-20T19:18:45.948077+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 6,
+        "solvability": 8,
+        "merge_probability": 0.68,
+        "estimated_hours": 10.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 1,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-Dasharo-dasharo-issues-1273",
+      "hash": "Dasharo/dasharo-issues#1273",
+      "title": "EC testablity interface",
+      "reward": "$1000",
+      "reward_usd": 1000.0,
+      "currency": "USD",
+      "repo": "Dasharo/dasharo-issues",
+      "issue": 1273,
+      "issue_url": "https://github.com/Dasharo/dasharo-issues/issues/1273",
+      "org": "Dasharo",
+      "source": "github_label",
+      "first_seen_at": "2026-05-20T10:49:01.799726+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 8,
+        "solvability": 4,
+        "merge_probability": 0.45,
+        "estimated_hours": 80.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 9,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-tinygrad-tinygrad-3039",
+      "hash": "tinygrad/tinygrad#3039",
+      "title": "Bounty: Fast parallel scan (Mamba, etc). ",
+      "reward": "$500",
+      "reward_usd": 500.0,
+      "currency": "USD",
+      "repo": "tinygrad/tinygrad",
+      "issue": 3039,
+      "issue_url": "https://github.com/tinygrad/tinygrad/issues/3039",
+      "org": "tinygrad",
+      "source": "github_label",
+      "first_seen_at": "2026-05-20T10:49:01.799370+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 7,
+        "solvability": 6,
+        "merge_probability": 0.74,
+        "estimated_hours": 32.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 16,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-orchestration-agent-AgentOrchestration-12",
+      "hash": "orchestration-agent/AgentOrchestration#12",
+      "title": "[ Bounty $4k ] [ Config ] Block branch replacement by scalar env values \u2014 nested merge safety",
+      "reward": "$4000",
+      "reward_usd": 4000.0,
+      "currency": "USD",
+      "repo": "orchestration-agent/AgentOrchestration",
+      "issue": 12,
+      "issue_url": "https://github.com/orchestration-agent/AgentOrchestration/issues/12",
+      "org": "orchestration-agent",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T17:13:53.092407+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 3,
+        "merge_probability": 0.5,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 0,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-orchestration-agent-AgentOrchestration-8",
+      "hash": "orchestration-agent/AgentOrchestration#8",
+      "title": "[ Bounty $4k ] [ Registry ] Pin resolved handler per attempt \u2014 mid-run registry updates",
+      "reward": "$4000",
+      "reward_usd": 4000.0,
+      "currency": "USD",
+      "repo": "orchestration-agent/AgentOrchestration",
+      "issue": 8,
+      "issue_url": "https://github.com/orchestration-agent/AgentOrchestration/issues/8",
+      "org": "orchestration-agent",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T16:40:20.286666+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 3,
+        "merge_probability": 0.5,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 0,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-orchestration-agent-AgentOrchestration-5",
+      "hash": "orchestration-agent/AgentOrchestration#5",
+      "title": "[ Bounty $5k ] [ Config ] Validate sandbox resource limit config \u2014 config-to-sandbox boundary",
+      "reward": "$5000",
+      "reward_usd": 5000.0,
+      "currency": "USD",
+      "repo": "orchestration-agent/AgentOrchestration",
+      "issue": 5,
+      "issue_url": "https://github.com/orchestration-agent/AgentOrchestration/issues/5",
+      "org": "orchestration-agent",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T16:08:55.022999+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 3,
+        "merge_probability": 0.5,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 1,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-midnightntwrk-contributor-hub-291",
+      "hash": "midnightntwrk/contributor-hub#291",
+      "title": "[Tutorial] Witnesses in Depth: Patterns, Types, and Real Use Cases",
+      "reward": "$700",
+      "reward_usd": 700.0,
+      "currency": "USD",
+      "repo": "midnightntwrk/contributor-hub",
+      "issue": 291,
+      "issue_url": "https://github.com/midnightntwrk/contributor-hub/issues/291",
+      "org": "midnightntwrk",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T09:21:43.362464+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.01,
+        "estimated_hours": 0.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 11,
+        "linked_prs": 1
+      }
+    },
+    {
+      "id": "gh-midnightntwrk-contributor-hub-295",
+      "hash": "midnightntwrk/contributor-hub#295",
+      "title": "[Tutorial] Why ownPublicKey() Can't Be Trusted for Access Control",
+      "reward": "$700",
+      "reward_usd": 700.0,
+      "currency": "USD",
+      "repo": "midnightntwrk/contributor-hub",
+      "issue": 295,
+      "issue_url": "https://github.com/midnightntwrk/contributor-hub/issues/295",
+      "org": "midnightntwrk",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T09:21:43.361658+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.01,
+        "estimated_hours": 0.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 10,
+        "linked_prs": 1
+      }
+    },
+    {
+      "id": "gh-midnightntwrk-contributor-hub-303",
+      "hash": "midnightntwrk/contributor-hub#303",
+      "title": "[Tutorial] Multi-Party Private State and Contracts Between Two+ Users",
+      "reward": "$1000",
+      "reward_usd": 1000.0,
+      "currency": "USD",
+      "repo": "midnightntwrk/contributor-hub",
+      "issue": 303,
+      "issue_url": "https://github.com/midnightntwrk/contributor-hub/issues/303",
+      "org": "midnightntwrk",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T09:21:43.361128+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.05,
+        "estimated_hours": 0.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 11,
+        "linked_prs": 2
+      }
+    },
+    {
+      "id": "gh-midnightntwrk-contributor-hub-304",
+      "hash": "midnightntwrk/contributor-hub#304",
+      "title": "[Tutorial] Bringing External Data On-Chain: Oracle Patterns for Midnight",
+      "reward": "$1000",
+      "reward_usd": 1000.0,
+      "currency": "USD",
+      "repo": "midnightntwrk/contributor-hub",
+      "issue": 304,
+      "issue_url": "https://github.com/midnightntwrk/contributor-hub/issues/304",
+      "org": "midnightntwrk",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T09:21:43.359524+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.05,
+        "estimated_hours": 0.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 13,
+        "linked_prs": 1
+      }
+    },
+    {
+      "id": "gh-midnightntwrk-contributor-hub-312",
+      "hash": "midnightntwrk/contributor-hub#312",
+      "title": "[Tutorial] Testing Compact Contracts: Unit Tests, Assertions, and Local Simulation",
+      "reward": "$700",
+      "reward_usd": 700.0,
+      "currency": "USD",
+      "repo": "midnightntwrk/contributor-hub",
+      "issue": 312,
+      "issue_url": "https://github.com/midnightntwrk/contributor-hub/issues/312",
+      "org": "midnightntwrk",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T09:21:43.358215+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.05,
+        "estimated_hours": 0.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 18,
+        "linked_prs": 1
+      }
+    },
+    {
+      "id": "gh-midnightntwrk-contributor-hub-296",
+      "hash": "midnightntwrk/contributor-hub#296",
+      "title": "[Tutorial] Building a Commit/Reveal Voting System in Compact",
+      "reward": "$1000",
+      "reward_usd": 1000.0,
+      "currency": "USD",
+      "repo": "midnightntwrk/contributor-hub",
+      "issue": 296,
+      "issue_url": "https://github.com/midnightntwrk/contributor-hub/issues/296",
+      "org": "midnightntwrk",
+      "source": "github_label",
+      "first_seen_at": "2026-05-19T09:21:43.355966+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.02,
+        "estimated_hours": 0.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 14,
+        "linked_prs": 2
+      }
+    },
+    {
+      "id": "ngGCBLsQXo9RpHCD",
+      "hash": "bug-bounty#30",
+      "title": "Benchmark APIs with p50, p95, p99 latency, RPS, error rate and TTFB",
+      "reward": "$750",
+      "reward_usd": 750.0,
+      "currency": "USD",
+      "repo": "brianne-showed/bug-bounty",
+      "issue": 30,
+      "issue_url": "https://github.com/brianne-showed/bug-bounty/issues/30",
+      "org": "brianne-showed",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T08:25:34.838972+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": 6,
+        "solvability": 7,
+        "merge_probability": 0.35,
+        "estimated_hours": 18.0
+      },
+      "competition": {
+        "verdict": "error",
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "axeKih4nSWVBt25P",
+      "hash": "bug-bounty#76",
+      "title": "Technical Poem Generation and Content Creation",
+      "reward": "$430",
+      "reward_usd": 430.0,
+      "currency": "USD",
+      "repo": "brianne-showed/bug-bounty",
+      "issue": 76,
+      "issue_url": "https://github.com/brianne-showed/bug-bounty/issues/76",
+      "org": "brianne-showed",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T08:25:34.838739+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": 1,
+        "solvability": 8,
+        "merge_probability": 0.1,
+        "estimated_hours": 0.5
+      },
+      "competition": {
+        "verdict": "error",
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "94sUL56jJstJGbaJ",
+      "hash": "bug-bounty#80",
+      "title": "Pixel Art Creation with high Creative Thinking",
+      "reward": "$780",
+      "reward_usd": 780.0,
+      "currency": "USD",
+      "repo": "brianne-showed/bug-bounty",
+      "issue": 80,
+      "issue_url": "https://github.com/brianne-showed/bug-bounty/issues/80",
+      "org": "brianne-showed",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T08:25:34.838495+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": 2,
+        "solvability": 2,
+        "merge_probability": 0.2,
+        "estimated_hours": 1.0
+      },
+      "competition": {
+        "verdict": "error",
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "DyywEQgR5md2xtQS",
+      "hash": "bug-bounty#29",
+      "title": "Implement a fully functional Admin Panel",
+      "reward": "$500",
+      "reward_usd": 500.0,
+      "currency": "USD",
+      "repo": "AtlasNexusOps/bug-bounty",
+      "issue": 29,
+      "issue_url": "https://github.com/AtlasNexusOps/bug-bounty/issues/29",
+      "org": "AtlasNexusOps",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T08:25:34.838182+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": 8,
+        "solvability": 4,
+        "merge_probability": 0.2,
+        "estimated_hours": 40.0
+      },
+      "competition": {
+        "verdict": "error",
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "MRBT1NeVC7kxmsuP",
+      "hash": "bug-bounty#29",
+      "title": "Implement a fully functional Admin Panel",
+      "reward": "$1,000",
+      "reward_usd": 1000.0,
+      "currency": "USD",
+      "repo": "junn-dev/bug-bounty",
+      "issue": 29,
+      "issue_url": "https://github.com/junn-dev/bug-bounty/issues/29",
+      "org": "junn-dev",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T08:25:34.837674+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": 7,
+        "solvability": 4,
+        "merge_probability": 0.25,
+        "estimated_hours": 40.0
+      },
+      "competition": {
+        "verdict": "error",
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "2FfLMy1zbCY5Hj2x",
+      "hash": "dokploy#1413",
+      "title": "Organisation and Teams Management",
+      "reward": "$100",
+      "reward_usd": 100.0,
+      "currency": "USD",
+      "repo": "JavierChaparroMX/dokploy",
+      "issue": 1413,
+      "issue_url": "https://github.com/JavierChaparroMX/dokploy/issues/1413",
+      "org": "JavierChaparroMX",
+      "source": "algora",
+      "first_seen_at": "2026-05-19T08:25:34.836791+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": 8,
+        "solvability": 4,
+        "merge_probability": 0.52,
+        "estimated_hours": 48.0
+      },
+      "competition": {
+        "verdict": "error",
+        "comment_count": null,
+        "linked_prs": null
+      }
+    }
+  ],
+  "_meta": {
+    "endpoint": "https://battam1111.github.io/bounty-radar-data/api/h_SMOKE_TEST_HOBBYIST_001/feed.json",
+    "note": "This file is generated every 5 minutes. The URL is HMAC-signed with your license key; verify with bounty.notify.radar_api.verify_url_signature() if you want to be sure it came from us."
+  }
+}

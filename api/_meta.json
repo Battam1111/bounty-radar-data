@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-05-23T11:23:50.790333+00:00",
+  "active_customers_by_tier": {
+    "hobbyist": 1,
+    "pro": 0,
+    "team": 0
+  },
+  "active_customers_total": 1,
+  "schema_version": 1,
+  "docs": "https://github.com/Battam1111/bounty-radar-data/blob/main/README.md"
+}
