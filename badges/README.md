@@ -19,4 +19,4 @@ For repos that don't want the dynamic endpoint:
 - score-fair.svg (0.50-0.70)
 - score-needs-work.svg (<0.50)
 
-All assets are CC0 — copy, embed, modify freely.
+All assets are CC0, copy, embed, modify freely.

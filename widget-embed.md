@@ -20,9 +20,9 @@ Embed a live, auto-updating list of recent ZK bounties on any site.
 ```
 
 ## Query parameters
-- `ecosystem` — `aleo` | `noir` | `midnight` | `aztec` | `risc0` | `cairo` (leave empty for all)
-- `limit` — 1..50, default 8
-- `theme` — `auto` (default) | `light` | `dark`
+- `ecosystem`, `aleo` | `noir` | `midnight` | `aztec` | `risc0` | `cairo` (leave empty for all)
+- `limit`, 1..50, default 8
+- `theme`, `auto` (default) | `light` | `dark`
 
 ## Auto-height (optional)
 Add to your parent page so the iframe resizes to fit content:
@@ -38,4 +38,4 @@ window.addEventListener('message', e => {
 ```
 
 ## License
-CC0 — copy, embed, modify freely. No tracking, no cookies, no analytics on the widget itself.
+CC0, copy, embed, modify freely. No tracking, no cookies, no analytics on the widget itself.
