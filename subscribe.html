@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<title>Subscribe; ZK Bounty Radar Weekly Digest</title>
+<meta name="description" content="Get the weekly ZK + AI bounty digest in your inbox every Sunday. New bounties, top payouts, ecosystem breakdown. Free."/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="canonical" href="https://battam1111.github.io/bounty-radar-data/subscribe.html">
+<meta property="og:title" content="Subscribe; ZK Bounty Radar Weekly Digest"/>
+<meta property="og:description" content="Sunday emails with new bounties, top payouts, ecosystem distribution. Free."/>
+<meta property="og:url" content="https://battam1111.github.io/bounty-radar-data/subscribe.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="https://battam1111.github.io/bounty-radar-data/og.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Subscribe; ZK Bounty Radar Weekly Digest"/>
+<meta name="twitter:description" content="Sunday emails with new bounties, top payouts, ecosystem distribution. Free."/>
+<meta name="twitter:image" content="https://battam1111.github.io/bounty-radar-data/og.png"/>
+
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;max-width:760px;margin:auto;padding:24px;line-height:1.55;color:#1a1a1a;background:#fff}
+h1{margin-bottom:6px;font-size:2em}
+.sub{color:#555;margin-bottom:24px;font-size:1.05em}
+.hero{padding:28px;background:#f7f9fc;border-radius:12px;margin-bottom:32px}
+.hero h2{margin:0 0 8px 0;font-size:1.45em}
+form.signup{display:flex;flex-wrap:wrap;gap:8px;align-items:stretch;margin-top:14px}
+input[type=email]{flex:1 1 280px;padding:11px 14px;font-size:15px;border:1px solid #c8cdd6;border-radius:8px;background:#fff;color:#222}
+input[type=email]:focus{outline:none;border-color:#0353c6;box-shadow:0 0 0 3px rgba(3,83,198,0.18)}
+button.cta{padding:11px 22px;background:#0353c6;color:white;border:none;border-radius:8px;font-size:15px;font-weight:600;cursor:pointer}
+button.cta:hover{background:#022f7a}
+.note{font-size:13px;color:#666;margin-top:10px}
+.what-you-get{margin:32px 0}
+.what-you-get ul{padding-left:20px}
+.alt{margin-top:32px;padding:20px;background:#fff9e6;border-left:4px solid #f0b400;border-radius:6px}
+.tiers{margin-top:32px;padding:20px;background:#f0f3f8;border-radius:8px}
+.tiers .tier{display:inline-block;padding:6px 12px;margin:4px;background:#fff;border-radius:6px;border:1px solid #d3d7df;text-decoration:none;color:#0353c6;font-weight:500;font-size:14px}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid #e4e7eb;color:#777;font-size:13px}
+footer a{color:#666}
+.status{display:none;margin-top:12px;padding:10px 14px;border-radius:6px;font-size:14px}
+.status.ok{display:block;background:#e8f5e9;color:#2e7d32;border-left:3px solid #4caf50}
+.status.err{display:block;background:#fde8e8;color:#c62828;border-left:3px solid #f44336}
+</style>
+</head><body>
+
+<h1>ZK Bounty Radar Weekly Digest</h1>
+<div class="sub">A Sunday email with what's new across 11 ZK + AI bounty platforms.</div>
+
+<div class="hero">
+  <h2>Free weekly email</h2>
+  <p style="margin:0">No spam, no tracking pixels, no growth hacking. One email per week.
+  Unsubscribe at any time (reply with "stop" or use the link in any email).</p>
+
+  <form class="signup" id="signup-form" method="get" action="mailto:bounty-radar+subscribe@chenyanyun.com">
+    <input type="email"
+           name="email"
+           id="signup-email"
+           placeholder="you@example.com"
+           required
+           autocomplete="email"
+           pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+           aria-label="Your email address"/>
+    <input type="hidden" name="subject" value="subscribe me to ZK Bounty Radar weekly digest"/>
+    <input type="hidden" name="body" value="Subscribe my email to the ZK Bounty Radar weekly digest. (Sent from https://battam1111.github.io/bounty-radar-data/subscribe.html)"/>
+    <button class="cta" type="submit">Subscribe</button>
+  </form>
+  <div class="status" id="status-msg" role="status" aria-live="polite"></div>
+
+  <p class="note">
+    Hitting Subscribe opens your email client with a pre-filled message. Send it
+    and you're in. We'll process the request within 24h.
+  </p>
+</div>
+
+<div class="what-you-get">
+  <h2>What's in each email</h2>
+  <ul>
+    <li>Count + total pool of new bounties this week</li>
+    <li>Top 10 highest-paying new bounties (title + repo + payout)</li>
+    <li>Breakdown by ecosystem (Noir / Aleo / RISC0 / Plonky3 / SP1 / Cairo / Midnight / etc.)</li>
+    <li>Breakdown by source platform (Algora / Code4rena / Drips Wave / GitHub label / etc.)</li>
+    <li>Direct links to each bounty's GitHub issue</li>
+  </ul>
+  <p>Every Sunday at 00:05 mini-local time. Same data as
+  <a href="https://battam1111.github.io/bounty-radar-data/weekly/">the public weekly archive</a>, just pushed to your inbox.</p>
+</div>
+
+<div class="alt">
+  <strong>Prefer not to share your email?</strong>
+  <p style="margin:8px 0 0 0">The weekly digest is also published every Sunday at
+  <a href="https://battam1111.github.io/bounty-radar-data/weekly/">/weekly/</a>
+  (free, no signup, RSS-friendly). You can also pull the live feed:
+  <a href="feed.json"><code>feed.json</code></a>,
+  <a href="feed.xml"><code>RSS</code></a>,
+  or per-ecosystem JSON like <a href="noir.json"><code>noir.json</code></a>.</p>
+</div>
+
+<div class="tiers">
+  <h2 style="margin-top:0">Need real-time alerts, not weekly digests?</h2>
+  <p>Email digest is the slow lane. If you want to get pinged the moment a
+  bounty matching your filters appears (Telegram / Slack / Discord / webhook):</p>
+  <a class="tier" href="https://polar.sh/checkout/polar_c_BbZbN6eJnZ7rwsUfT1pMsj4lTftwnfMoGdWBo0KozKU">Hobbyist $19/mo</a>
+  <a class="tier" href="https://polar.sh/checkout/polar_c_CKKhyOq11BHuG2AulflWkm53YU98pLdrNo22h3OlB4O">Pro $97/mo</a>
+  <a class="tier" href="https://polar.sh/checkout/polar_c_bT1FpxfzlShI3PcdHxTrHeJf8EVO1AFaWbFc90Z9mfC">Team $497/mo</a>
+</div>
+
+<!--
+  Optional: replace the mailto form above with a direct Resend Audience embed.
+  To enable:
+    1. Create an Audience in your Resend dashboard
+    2. Replace AUDIENCE_ID_HERE below with the real id
+    3. Uncomment this block and delete the mailto form
+    4. The form will POST directly to Resend; no server needed.
+
+  <form id="resend-form" action="https://api.resend.com/audiences/AUDIENCE_ID_HERE/contacts" method="POST">
+    <input type="email" name="email" placeholder="you@example.com" required/>
+    <button class="cta" type="submit">Subscribe</button>
+  </form>
+-->
+
+<footer>
+  <a href="/">Back to live feed</a> ·
+  <a href="https://github.com/Battam1111/bounty-radar-data/">Repo</a> ·
+  <a href="/weekly/">Past digests</a>
+</footer>
+
+<script>
+// Client-side enhancement: catch the form submit, validate the email, show a
+// friendly status, then let the mailto: open. Browsers that block popup-style
+// mailto handlers will still get a working form (the action attribute kicks in).
+document.addEventListener("DOMContentLoaded", function() {
+  var form = document.getElementById("signup-form");
+  var input = document.getElementById("signup-email");
+  var status = document.getElementById("status-msg");
+  if (!form || !input || !status) return;
+  form.addEventListener("submit", function(e) {
+    var email = (input.value || "").trim();
+    var rx = /^[A-Za-z0-9._%+\-]+@[A-Za-z0-9](?:[A-Za-z0-9\-]{0,61}[A-Za-z0-9])?(?:\.[A-Za-z0-9](?:[A-Za-z0-9\-]{0,61}[A-Za-z0-9])?)+$/;
+    if (!rx.test(email)) {
+      e.preventDefault();
+      status.className = "status err";
+      status.textContent = "That doesn't look like a valid email; double-check the address.";
+      return;
+    }
+    // Show a "click send" hint since the mailto opens a draft, not an instant send
+    status.className = "status ok";
+    status.textContent = "Opening your email client. Press Send in the draft to complete signup.";
+  });
+});
+</script>
+
+</body></html>
