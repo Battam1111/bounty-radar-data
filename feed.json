@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-23T04:47:20.250765+00:00",
-  "total": 102,
+  "generated_at": "2026-05-23T05:17:28.205851+00:00",
+  "total": 100,
   "sources": [
     "algora",
     "github_label"
@@ -25,58 +25,6 @@
     "znc"
   ],
   "bounties": [
-    {
-      "id": "gh-orchestration-agent-AgentOrchestration-2815",
-      "hash": "orchestration-agent/AgentOrchestration#2815",
-      "title": "[ Bounty $2k ] [ Data ] Document data lineage for transformed task records \u2014 analytics pipeline",
-      "reward": "$2000",
-      "reward_usd": 2000.0,
-      "currency": "USD",
-      "repo": "orchestration-agent/AgentOrchestration",
-      "issue": 2815,
-      "issue_url": "https://github.com/orchestration-agent/AgentOrchestration/issues/2815",
-      "org": "orchestration-agent",
-      "source": "github_label",
-      "first_seen_at": "2026-05-23T04:46:39.553571+00:00",
-      "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "gh-orchestration-agent-AgentOrchestration-2821",
-      "hash": "orchestration-agent/AgentOrchestration#2821",
-      "title": "[ Bounty $6k ] [ Webhook ] Avoid leaking internal run metadata in public events \u2014 payload shaping",
-      "reward": "$6000",
-      "reward_usd": 6000.0,
-      "currency": "USD",
-      "repo": "orchestration-agent/AgentOrchestration",
-      "issue": 2821,
-      "issue_url": "https://github.com/orchestration-agent/AgentOrchestration/issues/2821",
-      "org": "orchestration-agent",
-      "source": "github_label",
-      "first_seen_at": "2026-05-23T04:46:39.553020+00:00",
-      "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
     {
       "id": "gh-aLexzzz430-Cognitive-OS-5",
       "hash": "aLexzzz430/Cognitive-OS#5",
