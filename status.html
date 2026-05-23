@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>bounty-agent status</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<style>
+:root {
+    --bg: #0f1419;
+    --bg-2: #1a1f2e;
+    --bg-3: #232b3d;
+    --fg: #e6e9ef;
+    --fg-dim: #97a0b4;
+    --green: #4ade80;
+    --yellow: #fbbf24;
+    --red: #f87171;
+    --grey: #6b7280;
+    --link: #60a5fa;
+    --border: #2a3142;
+}
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font: 14px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", Inter, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+}
+.container { max-width: 1100px; margin: 0 auto; padding: 24px 16px; }
+header { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+header h1 { margin: 0; font-size: 22px; font-weight: 600; }
+.updated { font-size: 13px; color: var(--fg-dim); }
+section {
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 18px;
+}
+section h2 {
+    margin: 0 0 14px 0;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--fg-dim);
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+}
+.card {
+    background: var(--bg-3);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 13px;
+}
+.card .label { color: var(--fg-dim); font-size: 12px; }
+.card .value { font-size: 15px; font-weight: 600; margin-top: 2px; }
+.card .sub { color: var(--fg-dim); font-size: 12px; margin-top: 2px; }
+.badge {
+    display: inline-block;
+    padding: 1px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+.badge.green { background: rgba(74, 222, 128, 0.15); color: var(--green); }
+.badge.yellow { background: rgba(251, 191, 36, 0.15); color: var(--yellow); }
+.badge.red { background: rgba(248, 113, 113, 0.15); color: var(--red); }
+.badge.grey { background: rgba(107, 114, 128, 0.15); color: var(--grey); }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+table th, table td {
+    text-align: left;
+    padding: 6px 8px;
+    border-bottom: 1px solid var(--border);
+}
+table th { color: var(--fg-dim); font-weight: 500; font-size: 12px; text-transform: uppercase; }
+.bar {
+    display: inline-block;
+    height: 6px;
+    background: var(--link);
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.muted { color: var(--fg-dim); }
+.mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; }
+.blocker-row { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--border); }
+.blocker-row:last-child { border-bottom: 0; }
+.blocker-icon { font-size: 14px; flex-shrink: 0; width: 80px; }
+.blocker-body { flex: 1; min-width: 0; }
+.blocker-key { font-weight: 600; }
+.blocker-path { color: var(--fg-dim); font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; word-break: break-all; }
+.blocker-action { color: var(--fg-dim); font-size: 12px; margin-top: 2px; }
+.greyed { opacity: 0.55; }
+footer { text-align: center; color: var(--fg-dim); font-size: 12px; margin-top: 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+@media (max-width: 600px) {
+    .grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>bounty-agent status</h1>
+    <div class="updated">last updated <b>2026-05-23 12:17 UTC</b> &middot; auto-refresh every 30 min</div>
+  </header>
+  
+    <section>
+      <h2>System Health</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="label">launchd jobs</div>
+          <div class="value"><span class="badge green">13/13 healthy</span></div>
+          
+        </div>
+        <div class="card">
+          <div class="label">Last scan</div>
+          <div class="value">11m ago <span class='muted'>(7 seen, 0 new)</span></div>
+        </div>
+        <div class="card">
+          <div class="label">Last evaluator pass</div>
+          <div class="value">2h ago <span class='muted'>($0.0062 lifetime, 430 evals)</span></div>
+        </div>
+        <div class="card">
+          <div class="label">Last weekly report</div>
+          <div class="value">0s ago</div>
+        </div>
+        <div class="card">
+          <div class="label">Last Polar webhook</div>
+          <div class="value">18h ago <span class='muted'>(checkout.created)</span></div>
+          <div class="sub">5 events lifetime</div>
+        </div>
+        <div class="card">
+          <div class="label">Last alert sent</div>
+          <div class="value">just now <span class='muted'>(20 in last 24h)</span></div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <h2>Funnel Metrics</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="label">Total bounties in DB</div>
+          <div class="value">451</div>
+          <div class="sub">+96 in last 24h</div>
+        </div>
+        <div class="card">
+          <div class="label">go=True lifetime</div>
+          <div class="value">9</div>
+          <div class="sub">9 in last 7d</div>
+        </div>
+        <div class="card">
+          <div class="label">go=True actions taken</div>
+          <div class="value">9</div>
+          <div class="sub">worker is dormant by design</div>
+        </div>
+      </div>
+      <div style="margin-top: 14px;">
+        <table><thead><tr><th>Source</th><th>Bounties</th></tr></thead><tbody><tr><td class='mono'>github_label</td><td><span class='bar' style='width: 160px'></span>379</td></tr><tr><td class='mono'>algora</td><td><span class='bar' style='width: 27px'></span>66</td></tr><tr><td class='mono'>buidlbox</td><td><span class='bar' style='width: 1px'></span>4</td></tr><tr><td class='mono'>audit_contest</td><td><span class='bar' style='width: 0px'></span>2</td></tr><tr><td class='mono'>drips_wave</td><td><span class='bar' style='width: 0px'></span>0</td></tr><tr><td class='mono'>bountycaster</td><td><span class='bar' style='width: 0px'></span>0</td></tr><tr><td class='mono'>onlydust</td><td><span class='bar' style='width: 0px'></span>0</td></tr><tr><td class='mono'>gitcoin</td><td><span class='bar' style='width: 0px'></span>0</td></tr></tbody></table>
+      </div>
+    </section>
+    
+    <section>
+      <h2>Revenue Infrastructure</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="label">Polar orders</div>
+          <div class="value">0</div>
+          <div class="sub">last: never</div>
+        </div>
+        <div class="card">
+          <div class="label">Licenses issued</div>
+          <div class="value">0</div>
+          <div class="sub">across all paid tiers</div>
+        </div>
+        <div class="card">
+          <div class="label">Subscribers</div>
+          <div class="value mono" style="font-size: 12px;">email: <b>0</b> &middot; telegram: <b>0</b> &middot; webhook: <b>0</b> &middot; discord: <b>0</b></div>
+        </div>
+      </div>
+      <div style="margin-top: 14px;">
+        <div class="grid"><div class='card'><div class='label'>Free</div><div class='value'>public</div><div class='sub'>anonymous</div></div><div class='card'><div class='label'>Hobbyist</div><div class='value'>0</div><div class='sub'>active licenses</div></div><div class='card'><div class='label'>Pro</div><div class='value'>0</div><div class='sub'>active licenses</div></div><div class='card'><div class='label'>Team</div><div class='value'>0</div><div class='sub'>active licenses</div></div></div>
+      </div>
+      <p class='muted' style='margin-top: 12px;'>no paid customers yet</p>
+    </section>
+    
+    <section>
+      <h2>User Blockers</h2>
+      <p class="muted" style="margin-top: 0;">items in grey are missing. drop the file at the path, restart the relevant job.</p>
+      
+          <div class="blocker-row greyed">
+            <div class="blocker-icon"><span class='badge grey'>missing</span></div>
+            <div class="blocker-body">
+              <div class="blocker-key">HF token</div>
+              <div class="blocker-path">secrets/huggingface.json</div>
+              <div class="blocker-action">publish bounty dataset to HuggingFace Hub &middot; <i>drop a JSON file with {&quot;token&quot;: &quot;hf_...&quot;} at the path</i></div>
+            </div>
+          </div>
+        
+          <div class="blocker-row greyed">
+            <div class="blocker-icon"><span class='badge grey'>missing</span></div>
+            <div class="blocker-body">
+              <div class="blocker-key">Resend token</div>
+              <div class="blocker-path">secrets/resend.json</div>
+              <div class="blocker-action">send weekly email digest to subscribers &middot; <i>drop a JSON file with {&quot;api_key&quot;: &quot;re_...&quot;} at the path</i></div>
+            </div>
+          </div>
+        
+          <div class="blocker-row">
+            <div class="blocker-icon"><span class='badge green'>present</span></div>
+            <div class="blocker-body">
+              <div class="blocker-key">Algora cookie</div>
+              <div class="blocker-path">.env (ALGORA_SESSION_COOKIE)</div>
+              <div class="blocker-action">authenticated Algora scan (last refresh: 3d ago) &middot; <i>open algora.io in a browser, sign in, copy cookie, set ALGORA_SESSION_COOKIE</i></div>
+            </div>
+          </div>
+        
+          <div class="blocker-row">
+            <div class="blocker-icon"><span class='badge green'>present</span></div>
+            <div class="blocker-body">
+              <div class="blocker-key">Polar Pro product</div>
+              <div class="blocker-path">secrets/polar.json (radar_products.pro)</div>
+              <div class="blocker-action">checkout URL for $97/mo Pro tier &middot; <i>create via Polar dashboard; pin checkout URL into polar.json</i></div>
+            </div>
+          </div>
+        
+          <div class="blocker-row greyed">
+            <div class="blocker-icon"><span class='badge grey'>missing</span></div>
+            <div class="blocker-body">
+              <div class="blocker-key">Neynar key</div>
+              <div class="blocker-path">secrets/neynar.json or .env NEYNAR_API_KEY</div>
+              <div class="blocker-action">Farcaster API access (bountycaster signal pull) &middot; <i>sign up at neynar.com, drop JSON {&quot;api_key&quot;: &quot;...&quot;} at path</i></div>
+            </div>
+          </div>
+        
+          <div class="blocker-row">
+            <div class="blocker-icon"><span class='badge green'>present</span></div>
+            <div class="blocker-body">
+              <div class="blocker-key">GH Sponsors</div>
+              <div class="blocker-path">.github/FUNDING.yml</div>
+              <div class="blocker-action">accept tips via github.com/sponsors/Battam1111 &middot; <i>go to github.com/sponsors and complete Stripe setup</i></div>
+            </div>
+          </div>
+        
+    </section>
+    
+    <section>
+      <h2>Recent Activity (last 24h)</h2>
+      <h3 style="margin-top: 0; font-size: 13px; color: var(--fg-dim);">Last 5 scans</h3>
+      <table><thead><tr><th>When</th><th>Seen</th><th>New</th><th>Error</th></tr></thead><tbody><tr><td class='muted'>12m ago</td><td>7</td><td>0</td><td class='muted'></td></tr><tr><td class='muted'>18m ago</td><td>7</td><td>6</td><td class='muted'></td></tr><tr><td class='muted'>44m ago</td><td>34</td><td>0</td><td class='muted'></td></tr><tr><td class='muted'>54m ago</td><td>34</td><td>0</td><td class='muted'></td></tr><tr><td class='muted'>1h ago</td><td>34</td><td>0</td><td class='muted'></td></tr></tbody></table>
+      <h3 style="margin-top: 18px; font-size: 13px; color: var(--fg-dim);">Last 5 evaluator decisions</h3>
+      <table><thead><tr><th>Bounty</th><th>Decision</th><th>Reason</th><th>When</th></tr></thead><tbody><tr><td>[ Bounty $7k ] [ Middleware ] Keep correlation IDs from cro...</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>4 open PR(s) already reference this issue</td><td class='muted'>2h ago</td></tr><tr><td>[ Bounty $9k ] [ Runtime ] Enforce memory limit on trace ag...</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>3 open PR(s) already reference this issue</td><td class='muted'>2h ago</td></tr><tr><td>[ Bounty $3k ] [ Docker ] Exclude local environment files f...</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>3 open PR(s) already reference this issue</td><td class='muted'>2h ago</td></tr><tr><td>[ Bounty $4k ] [ SDK ] Attach task metadata to the returned...</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>5 open PR(s) already reference this issue</td><td class='muted'>2h ago</td></tr><tr><td>[ Bounty $2k ] [ Data ] Add data owner to retention excepti...</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>3 open PR(s) already reference this issue</td><td class='muted'>3h ago</td></tr></tbody></table>
+      <h3 style="margin-top: 18px; font-size: 13px; color: var(--fg-dim);">Last 5 alerts</h3>
+      <table><thead><tr><th>When</th><th>Log</th><th>Line</th></tr></thead><tbody><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-23 20:06:11.713 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-23 19:34:43.241 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-23 19:03:16.173 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-23 18:33:04.301 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-23 18:02:51.188 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr></tbody></table>
+      <h3 style="margin-top: 18px; font-size: 13px; color: var(--fg-dim);">Last 5 errors</h3>
+      <table><thead><tr><th>When</th><th>Log</th><th>Line</th></tr></thead><tbody><tr><td class='muted'>just now</td><td class='mono muted'>hot_watch.err.log</td><td>2026-05-23 20:17:28.904 | WARNING  | bounty.scanner.hot_watch:poll_repo:158 - hot_watch poll starkware-libs/starknet-docs failed: HTTPStatu...</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>hot_watch.err.log</td><td>2026-05-23 20:17:21.452 | WARNING  | bounty.scanner.hot_watch:poll_repo:158 - hot_watch poll AleoHQ/leo failed: HTTPStatusError(&quot;Redirect r...</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>hot_watch.err.log</td><td>2026-05-23 20:15:13.331 | WARNING  | bounty.scanner.hot_watch:poll_repo:158 - hot_watch poll starkware-libs/starknet-docs failed: HTTPStatu...</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>hot_watch.err.log</td><td>2026-05-23 20:15:07.483 | WARNING  | bounty.scanner.hot_watch:poll_repo:158 - hot_watch poll AleoHQ/leo failed: HTTPStatusError(&quot;Redirect r...</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>hot_watch.err.log</td><td>2026-05-23 20:12:58.033 | WARNING  | bounty.scanner.hot_watch:poll_repo:158 - hot_watch poll starkware-libs/starknet-docs failed: HTTPStatu...</td></tr></tbody></table>
+    </section>
+    
+  <footer>
+    public read-only mirror &middot; secrets redacted, emails masked
+    &middot; source: <a href="https://github.com/Battam1111/bounty-agent">github.com/Battam1111/bounty-agent</a>
+  </footer>
+</div>
+</body>
+</html>

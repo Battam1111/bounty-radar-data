@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-05-23T11:49:38.205928+00:00",
-  "total": 100,
+  "generated_at": "2026-05-23T12:17:34.477017+00:00",
+  "total": 106,
   "sources": [
     "algora",
+    "audit_contest",
+    "buidlbox",
     "github_label"
   ],
   "ecosystems": [
@@ -25,6 +27,162 @@
     "znc"
   ],
   "bounties": [
+    {
+      "id": "bb-9aa8fbad-97bc-43ab-9d3f-ff726c3934a0",
+      "hash": "hackquest.io/hackathons/Injective-Solo-AI-Builder-Sprint",
+      "title": "Injective Solo AI Builder Sprint",
+      "reward": "$500",
+      "reward_usd": 500.0,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "Injective",
+      "source": "buidlbox",
+      "first_seen_at": "2026-05-23T12:00:52.177119+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "bb-60ba4958-4710-4f74-96b4-d1ea92aa97dd",
+      "hash": "hackquest.io/hackathons/Arbitrum-Open-House-London-Online-Buildathon",
+      "title": "Arbitrum Open House London: Online Buildathon",
+      "reward": "$115000",
+      "reward_usd": 115000.0,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "Arbitrum Foundation",
+      "source": "buidlbox",
+      "first_seen_at": "2026-05-23T12:00:52.176868+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "bb-f50d15be-8585-4953-a738-18139ebd48d1",
+      "hash": "hackquest.io/hackathons/MetaMask-Smart-Accounts-Kit-x-1Shot-API-x-Venice-AI-Dev-Cook-Off",
+      "title": "MetaMask Smart Accounts Kit x 1Shot API x Venice AI Dev Cook Off",
+      "reward": "$14000",
+      "reward_usd": 14000.0,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "MetaMask Developer",
+      "source": "buidlbox",
+      "first_seen_at": "2026-05-23T12:00:52.176559+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "bb-9dfcd5f7-f644-458a-8448-88d22ed098ff",
+      "hash": "hackquest.io/hackathons/Arbitrum-Open-House-Dubai-Online-Buildathon",
+      "title": "Arbitrum Open House Dubai: Online Buildathon",
+      "reward": "$30000",
+      "reward_usd": 30000.0,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "Arbitrum Foundation",
+      "source": "buidlbox",
+      "first_seen_at": "2026-05-23T12:00:52.176253+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "audit-cantina-/competitions/e55ee7b9-6c99-42",
+      "hash": "cantina/contest/competitions/e55ee7b9-6c99-42f8-8338-39f3dd134ef3",
+      "title": "[Audit] Revert Finance / Revert Finance - StableSwap Hooks",
+      "reward": "$50000.0",
+      "reward_usd": 50000.0,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "cantina",
+      "source": "audit_contest",
+      "first_seen_at": "2026-05-23T12:00:52.175663+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "audit-cantina-/competitions/980a5976-9a7d-40",
+      "hash": "cantina/contest/competitions/980a5976-9a7d-4014-b2e1-c248b4c6fa44",
+      "title": "[Audit] Reserve Protocol / Reserve Governor",
+      "reward": "$30000.0",
+      "reward_usd": 30000.0,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "cantina",
+      "source": "audit_contest",
+      "first_seen_at": "2026-05-23T12:00:52.174380+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
     {
       "id": "gh-aLexzzz430-Cognitive-OS-5",
       "hash": "aLexzzz430/Cognitive-OS#5",
@@ -376,162 +534,6 @@
       "org": "code4rena",
       "source": "algora",
       "first_seen_at": "2026-05-19T18:29:32.783434+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "audit-code4rena-/audits/2025-05-silo-finance-m",
-      "hash": "code4rena/contest/audits/2025-05-silo-finance-mitigation-review",
-      "title": "[Audit] (html-only)",
-      "reward": "$?",
-      "reward_usd": null,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "code4rena",
-      "source": "algora",
-      "first_seen_at": "2026-05-19T18:29:32.781232+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "audit-code4rena-/audits/2025-04-virtuals-proto",
-      "hash": "code4rena/contest/audits/2025-04-virtuals-protocol",
-      "title": "[Audit] (html-only)",
-      "reward": "$?",
-      "reward_usd": null,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "code4rena",
-      "source": "algora",
-      "first_seen_at": "2026-05-19T17:21:34.242155+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "audit-code4rena-/audits/2025-12-panoptic-next-",
-      "hash": "code4rena/contest/audits/2025-12-panoptic-next-core",
-      "title": "[Audit] (html-only)",
-      "reward": "$?",
-      "reward_usd": null,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "code4rena",
-      "source": "algora",
-      "first_seen_at": "2026-05-19T17:21:34.240074+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "audit-code4rena-/audits/2025-11-brix-money",
-      "hash": "code4rena/contest/audits/2025-11-brix-money",
-      "title": "[Audit] (html-only)",
-      "reward": "$?",
-      "reward_usd": null,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "code4rena",
-      "source": "algora",
-      "first_seen_at": "2026-05-19T17:21:01.803519+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "audit-code4rena-/audits/2025-08-solana-foundat",
-      "hash": "code4rena/contest/audits/2025-08-solana-foundation",
-      "title": "[Audit] (html-only)",
-      "reward": "$?",
-      "reward_usd": null,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "code4rena",
-      "source": "algora",
-      "first_seen_at": "2026-05-19T17:21:01.803217+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "audit-code4rena-/audits/2025-08-meteora-dynami",
-      "hash": "code4rena/contest/audits/2025-08-meteora-dynamic-bonding-curve",
-      "title": "[Audit] (html-only)",
-      "reward": "$?",
-      "reward_usd": null,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "code4rena",
-      "source": "algora",
-      "first_seen_at": "2026-05-19T17:21:01.803065+00:00",
       "scoring": {
         "go_decision": false,
         "difficulty": 5,
