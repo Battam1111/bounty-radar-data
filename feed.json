@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T00:36:40.499982+00:00",
+  "generated_at": "2026-05-24T01:06:47.192294+00:00",
   "total": 106,
   "sources": [
     "algora",
@@ -67,11 +67,11 @@
       "source": "buidlbox",
       "first_seen_at": "2026-05-23T12:00:52.176868+00:00",
       "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 4.0
       },
       "competition": {
         "verdict": null,
@@ -93,11 +93,11 @@
       "source": "buidlbox",
       "first_seen_at": "2026-05-23T12:00:52.176559+00:00",
       "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 3,
+        "merge_probability": 0.5,
+        "estimated_hours": 4.0
       },
       "competition": {
         "verdict": null,
@@ -119,11 +119,11 @@
       "source": "buidlbox",
       "first_seen_at": "2026-05-23T12:00:52.176253+00:00",
       "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 4.0
       },
       "competition": {
         "verdict": null,
@@ -145,11 +145,11 @@
       "source": "audit_contest",
       "first_seen_at": "2026-05-23T12:00:52.175663+00:00",
       "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 4.0
       },
       "competition": {
         "verdict": null,
@@ -171,11 +171,11 @@
       "source": "audit_contest",
       "first_seen_at": "2026-05-23T12:00:52.174380+00:00",
       "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 4.0
       },
       "competition": {
         "verdict": null,
