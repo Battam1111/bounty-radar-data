@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T03:37:20.963187+00:00",
+  "generated_at": "2026-05-24T04:07:27.902520+00:00",
   "total": 106,
   "sources": [
     "algora",
@@ -41,11 +41,11 @@
       "source": "buidlbox",
       "first_seen_at": "2026-05-23T12:00:52.177119+00:00",
       "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
+        "go_decision": false,
+        "difficulty": 6,
+        "solvability": 2,
+        "merge_probability": 0.2,
+        "estimated_hours": 8.0
       },
       "competition": {
         "verdict": null,
