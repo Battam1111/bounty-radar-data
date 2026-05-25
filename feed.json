@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-25T01:12:44.247556+00:00",
-  "total": 106,
+  "generated_at": "2026-05-25T01:42:50.788212+00:00",
+  "total": 110,
   "sources": [
     "algora",
     "audit_contest",
@@ -13,8 +13,10 @@
     "Dasharo",
     "JavierChaparroMX",
     "PX4-Autopilot",
+    "PunkFinance",
     "Scottcjn",
     "aLexzzz430",
+    "blockchainforsocialimpact",
     "brianne-showed",
     "bug-bounty",
     "coolify",
@@ -27,6 +29,110 @@
     "znc"
   ],
   "bounties": [
+    {
+      "id": "gh-blockchainforsocialimpact-incubator-2",
+      "hash": "blockchainforsocialimpact/incubator#2",
+      "title": "[$10,000] - Sustainable Cities",
+      "reward": "$10000",
+      "reward_usd": 10000.0,
+      "currency": "USD",
+      "repo": "blockchainforsocialimpact/incubator",
+      "issue": 2,
+      "issue_url": "https://github.com/blockchainforsocialimpact/incubator/issues/2",
+      "org": "blockchainforsocialimpact",
+      "source": "github_label",
+      "first_seen_at": "2026-05-25T01:38:44.559092+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 6,
+        "solvability": 4,
+        "merge_probability": 0.45,
+        "estimated_hours": 24.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 14,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-PunkFinance-punk.protocol-3",
+      "hash": "PunkFinance/punk.protocol#3",
+      "title": "Coding Stablecoin Yield Strategy for DeFi 401(k)",
+      "reward": "$7000",
+      "reward_usd": 7000.0,
+      "currency": "USD",
+      "repo": "PunkFinance/punk.protocol",
+      "issue": 3,
+      "issue_url": "https://github.com/PunkFinance/punk.protocol/issues/3",
+      "org": "PunkFinance",
+      "source": "github_label",
+      "first_seen_at": "2026-05-25T01:38:44.558333+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 6,
+        "solvability": 4,
+        "merge_probability": 0.35,
+        "estimated_hours": 24.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 18,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-PunkFinance-punk.protocol-2",
+      "hash": "PunkFinance/punk.protocol#2",
+      "title": "Building Yield Strategy for DeFi 401(k)",
+      "reward": "$3000",
+      "reward_usd": 3000.0,
+      "currency": "USD",
+      "repo": "PunkFinance/punk.protocol",
+      "issue": 2,
+      "issue_url": "https://github.com/PunkFinance/punk.protocol/issues/2",
+      "org": "PunkFinance",
+      "source": "github_label",
+      "first_seen_at": "2026-05-25T01:38:44.557928+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 7,
+        "solvability": 4,
+        "merge_probability": 0.45,
+        "estimated_hours": 32.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 15,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-PunkFinance-punk.protocol-5",
+      "hash": "PunkFinance/punk.protocol#5",
+      "title": "Building & Coding BTC Yield Strategy",
+      "reward": "$6000",
+      "reward_usd": 6000.0,
+      "currency": "USD",
+      "repo": "PunkFinance/punk.protocol",
+      "issue": 5,
+      "issue_url": "https://github.com/PunkFinance/punk.protocol/issues/5",
+      "org": "PunkFinance",
+      "source": "github_label",
+      "first_seen_at": "2026-05-25T01:38:44.557404+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 7,
+        "solvability": 4,
+        "merge_probability": 0.45,
+        "estimated_hours": 48.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 24,
+        "linked_prs": 0
+      }
+    },
     {
       "id": "bb-9aa8fbad-97bc-43ab-9d3f-ff726c3934a0",
       "hash": "hackquest.io/hackathons/Injective-Solo-AI-Builder-Sprint",

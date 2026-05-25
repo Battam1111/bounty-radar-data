@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-25T01:12:44.247556+00:00",
-  "total": 106,
+  "generated_at": "2026-05-25T01:42:50.788212+00:00",
+  "total": 110,
   "sources": [
     "algora",
     "audit_contest",
@@ -13,8 +13,10 @@
     "Dasharo",
     "JavierChaparroMX",
     "PX4-Autopilot",
+    "PunkFinance",
     "Scottcjn",
     "aLexzzz430",
+    "blockchainforsocialimpact",
     "brianne-showed",
     "bug-bounty",
     "coolify",
@@ -27,6 +29,110 @@
     "znc"
   ],
   "bounties": [
+    {
+      "id": "gh-blockchainforsocialimpact-incubator-2",
+      "hash": "blockchainforsocialimpact/incubator#2",
+      "title": "[$10,000] - Sustainable Cities",
+      "reward": "$10000",
+      "reward_usd": 10000.0,
+      "currency": "USD",
+      "repo": "blockchainforsocialimpact/incubator",
+      "issue": 2,
+      "issue_url": "https://github.com/blockchainforsocialimpact/incubator/issues/2",
+      "org": "blockchainforsocialimpact",
+      "source": "github_label",
+      "first_seen_at": "2026-05-25T01:38:44.559092+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 6,
+        "solvability": 4,
+        "merge_probability": 0.45,
+        "estimated_hours": 24.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 14,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-PunkFinance-punk.protocol-3",
+      "hash": "PunkFinance/punk.protocol#3",
+      "title": "Coding Stablecoin Yield Strategy for DeFi 401(k)",
+      "reward": "$7000",
+      "reward_usd": 7000.0,
+      "currency": "USD",
+      "repo": "PunkFinance/punk.protocol",
+      "issue": 3,
+      "issue_url": "https://github.com/PunkFinance/punk.protocol/issues/3",
+      "org": "PunkFinance",
+      "source": "github_label",
+      "first_seen_at": "2026-05-25T01:38:44.558333+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 6,
+        "solvability": 4,
+        "merge_probability": 0.35,
+        "estimated_hours": 24.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 18,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-PunkFinance-punk.protocol-2",
+      "hash": "PunkFinance/punk.protocol#2",
+      "title": "Building Yield Strategy for DeFi 401(k)",
+      "reward": "$3000",
+      "reward_usd": 3000.0,
+      "currency": "USD",
+      "repo": "PunkFinance/punk.protocol",
+      "issue": 2,
+      "issue_url": "https://github.com/PunkFinance/punk.protocol/issues/2",
+      "org": "PunkFinance",
+      "source": "github_label",
+      "first_seen_at": "2026-05-25T01:38:44.557928+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 7,
+        "solvability": 4,
+        "merge_probability": 0.45,
+        "estimated_hours": 32.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 15,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-PunkFinance-punk.protocol-5",
+      "hash": "PunkFinance/punk.protocol#5",
+      "title": "Building & Coding BTC Yield Strategy",
+      "reward": "$6000",
+      "reward_usd": 6000.0,
+      "currency": "USD",
+      "repo": "PunkFinance/punk.protocol",
+      "issue": 5,
+      "issue_url": "https://github.com/PunkFinance/punk.protocol/issues/5",
+      "org": "PunkFinance",
+      "source": "github_label",
+      "first_seen_at": "2026-05-25T01:38:44.557404+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 7,
+        "solvability": 4,
+        "merge_probability": 0.45,
+        "estimated_hours": 48.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 24,
+        "linked_prs": 0
+      }
+    },
     {
       "id": "bb-9aa8fbad-97bc-43ab-9d3f-ff726c3934a0",
       "hash": "hackquest.io/hackathons/Injective-Solo-AI-Builder-Sprint",
@@ -439,110 +545,6 @@
       },
       "competition": {
         "verdict": "error",
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "ageAsbScFyRznbBs",
-      "hash": "AgentOrchestration#42",
-      "title": "[ Bounty $9k ] [ Runtime ] Stop retry loop after terminal run state \u2014 retry runtime",
-      "reward": "$9",
-      "reward_usd": 9.0,
-      "currency": "USD",
-      "repo": "AgentOrchestration/AgentOrchestration",
-      "issue": 42,
-      "issue_url": "https://github.com/AgentOrchestration/AgentOrchestration/issues/42",
-      "org": "mkcash",
-      "source": "algora",
-      "first_seen_at": "2026-05-19T20:37:11.117743+00:00",
-      "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
-      },
-      "competition": {
-        "verdict": "error",
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "gh-Scottcjn-rustchain-bounties-696",
-      "hash": "Scottcjn/rustchain-bounties#696",
-      "title": "Meme Bounty: Post RustChain Memes on Social Media (2 RTC each)",
-      "reward": "$15",
-      "reward_usd": 15.0,
-      "currency": "USD",
-      "repo": "Scottcjn/rustchain-bounties",
-      "issue": 696,
-      "issue_url": "https://github.com/Scottcjn/rustchain-bounties/issues/696",
-      "org": "Scottcjn",
-      "source": "github_label",
-      "first_seen_at": "2026-05-19T19:34:24.468875+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 3,
-        "merge_probability": 0.5,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": "clear",
-        "comment_count": 21,
-        "linked_prs": 0
-      }
-    },
-    {
-      "id": "audit-code4rena-/audits/2025-11-sukukfi",
-      "hash": "code4rena/contest/audits/2025-11-sukukfi",
-      "title": "[Audit] (html-only)",
-      "reward": "$?",
-      "reward_usd": null,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "code4rena",
-      "source": "algora",
-      "first_seen_at": "2026-05-19T19:34:24.466383+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "audit-code4rena-/audits/2025-05-blackhole",
-      "hash": "code4rena/contest/audits/2025-05-blackhole",
-      "title": "[Audit] (html-only)",
-      "reward": "$?",
-      "reward_usd": null,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "code4rena",
-      "source": "algora",
-      "first_seen_at": "2026-05-19T18:29:32.783434+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
         "comment_count": null,
         "linked_prs": null
       }
