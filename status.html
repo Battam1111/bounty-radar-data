@@ -110,7 +110,7 @@ a:hover { text-decoration: underline; }
 <div class="container">
   <header>
     <h1>bounty-agent status</h1>
-    <div class="updated">last updated <b>2026-05-27 19:02 UTC</b> &middot; auto-refresh every 30 min</div>
+    <div class="updated">last updated <b>2026-05-27 19:32 UTC</b> &middot; auto-refresh every 30 min</div>
   </header>
   
     <section>
@@ -123,11 +123,11 @@ a:hover { text-decoration: underline; }
         </div>
         <div class="card">
           <div class="label">Last scan</div>
-          <div class="value">25m ago <span class='muted'>(37 seen, 0 new)</span></div>
+          <div class="value">23m ago <span class='muted'>(37 seen, 0 new)</span></div>
         </div>
         <div class="card">
           <div class="label">Last evaluator pass</div>
-          <div class="value">56m ago <span class='muted'>($0.0092 lifetime, 458 evals)</span></div>
+          <div class="value">1h ago <span class='muted'>($0.0092 lifetime, 458 evals)</span></div>
         </div>
         <div class="card">
           <div class="label">Last weekly report</div>
@@ -156,7 +156,7 @@ a:hover { text-decoration: underline; }
         <div class="card">
           <div class="label">go=True lifetime</div>
           <div class="value">9</div>
-          <div class="sub">2 in last 7d</div>
+          <div class="sub">1 in last 7d</div>
         </div>
         <div class="card">
           <div class="label">go=True actions taken</div>
@@ -256,13 +256,13 @@ a:hover { text-decoration: underline; }
     <section>
       <h2>Recent Activity (last 24h)</h2>
       <h3 style="margin-top: 0; font-size: 13px; color: var(--fg-dim);">Last 5 scans</h3>
-      <table><thead><tr><th>When</th><th>Seen</th><th>New</th><th>Error</th></tr></thead><tbody><tr><td class='muted'>26m ago</td><td>37</td><td>0</td><td class='muted'></td></tr><tr><td class='muted'>59m ago</td><td>37</td><td>1</td><td class='muted'></td></tr><tr><td class='muted'>1h ago</td><td>38</td><td>0</td><td class='muted'></td></tr><tr><td class='muted'>2h ago</td><td>38</td><td>2</td><td class='muted'></td></tr><tr><td class='muted'>2h ago</td><td>38</td><td>0</td><td class='muted'></td></tr></tbody></table>
+      <table><thead><tr><th>When</th><th>Seen</th><th>New</th><th>Error</th></tr></thead><tbody><tr><td class='muted'>25m ago</td><td>37</td><td>0</td><td class='muted'></td></tr><tr><td class='muted'>56m ago</td><td>37</td><td>0</td><td class='muted'></td></tr><tr><td class='muted'>1h ago</td><td>37</td><td>1</td><td class='muted'></td></tr><tr><td class='muted'>2h ago</td><td>38</td><td>0</td><td class='muted'></td></tr><tr><td class='muted'>2h ago</td><td>38</td><td>2</td><td class='muted'></td></tr></tbody></table>
       <h3 style="margin-top: 18px; font-size: 13px; color: var(--fg-dim);">Last 5 evaluator decisions</h3>
-      <table><thead><tr><th>Bounty</th><th>Decision</th><th>Reason</th><th>When</th></tr></thead><tbody><tr><td>p2pool explanation and sharechain details</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>1 open PR(s) already reference this issue</td><td class='muted'>56m ago</td></tr><tr><td>[BOUNTY: up to 50 RTC] Micro Liquidity — Provide Liquidity,...</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>Not a software engineering task</td><td class='muted'>2h ago</td></tr><tr><td>[PROGRAM] RustChain Digital Ambassador — Paid in RTC (Human...</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>LLM unavailable; defer to manual review</td><td class='muted'>2h ago</td></tr><tr><td>Twitter API Core Integration ($2,500)</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>7 open PR(s) already reference this issue</td><td class='muted'>4h ago</td></tr><tr><td>Help us translate Hugin Messenger!</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>5 open PR(s) already reference this issue</td><td class='muted'>12h ago</td></tr></tbody></table>
+      <table><thead><tr><th>Bounty</th><th>Decision</th><th>Reason</th><th>When</th></tr></thead><tbody><tr><td>p2pool explanation and sharechain details</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>1 open PR(s) already reference this issue</td><td class='muted'>1h ago</td></tr><tr><td>[BOUNTY: up to 50 RTC] Micro Liquidity — Provide Liquidity,...</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>Not a software engineering task</td><td class='muted'>2h ago</td></tr><tr><td>[PROGRAM] RustChain Digital Ambassador — Paid in RTC (Human...</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>LLM unavailable; defer to manual review</td><td class='muted'>2h ago</td></tr><tr><td>Twitter API Core Integration ($2,500)</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>7 open PR(s) already reference this issue</td><td class='muted'>5h ago</td></tr><tr><td>Help us translate Hugin Messenger!</td><td><span class='badge yellow'>no-go</span></td><td class='muted'>5 open PR(s) already reference this issue</td><td class='muted'>12h ago</td></tr></tbody></table>
       <h3 style="margin-top: 18px; font-size: 13px; color: var(--fg-dim);">Last 5 alerts</h3>
-      <table><thead><tr><th>When</th><th>Log</th><th>Line</th></tr></thead><tbody><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 02:37:17.993 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 02:05:52.003 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 01:33:01.082 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 01:01:33.664 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 00:23:28.831 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr></tbody></table>
+      <table><thead><tr><th>When</th><th>Log</th><th>Line</th></tr></thead><tbody><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 03:08:50.276 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 02:37:17.993 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 02:05:52.003 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 01:33:01.082 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 01:01:33.664 | INFO     | bounty.scanner.runner:scan_once:69 - alerts sent: 0</td></tr></tbody></table>
       <h3 style="margin-top: 18px; font-size: 13px; color: var(--fg-dim);">Last 5 errors</h3>
-      <table><thead><tr><th>When</th><th>Log</th><th>Line</th></tr></thead><tbody><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 02:35:53.698 | WARNING  | bounty.scanner.drips_wave:_fetch_via_drips_api:90 - Drips Wave upstream API blocked by network (MITM/T...</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 02:05:52.002 | WARNING  | bounty.evaluator.runner:evaluate_pending:287 - competition check errored for srF4jyTQ, deferring LLM e...</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 02:05:51.268 | WARNING  | bounty.evaluator.runner:evaluate_pending:287 - competition check errored for HxNA2NKP, deferring LLM e...</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 02:05:50.486 | WARNING  | bounty.evaluator.runner:evaluate_pending:287 - competition check errored for XpqzjAj9, deferring LLM e...</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 02:05:49.685 | WARNING  | bounty.evaluator.runner:evaluate_pending:287 - competition check errored for ageAsbSc, deferring LLM e...</td></tr></tbody></table>
+      <table><thead><tr><th>When</th><th>Log</th><th>Line</th></tr></thead><tbody><tr><td class='muted'>just now</td><td class='mono muted'>hot_watch.err.log</td><td>2026-05-28 03:31:57.089 | WARNING  | bounty.scanner.hot_watch:poll_repo:158 - hot_watch poll tablelandnetwork/funding failed: ConnectError(...</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>hot_watch.err.log</td><td>2026-05-28 03:29:38.801 | WARNING  | bounty.scanner.hot_watch:poll_repo:158 - hot_watch poll iotaledger/devx failed: ConnectError(&#x27;[SSL: UN...</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>watchdog.err.log</td><td>2026-05-28 03:16:35.875 | WARNING  | bounty.watchdog:check_github_ratelimit:338 - rate_limit fetch failed: [SSL: UNEXPECTED_EOF_WHILE_READI...</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>hot_watch.err.log</td><td>2026-05-28 03:13:56.865 | WARNING  | bounty.scanner.hot_watch:poll_repo:158 - hot_watch poll tablelandnetwork/funding failed: ConnectError(...</td></tr><tr><td class='muted'>just now</td><td class='mono muted'>scanner.err.log</td><td>2026-05-28 03:07:19.555 | WARNING  | bounty.scanner.drips_wave:_fetch_via_drips_api:90 - Drips Wave upstream API blocked by network (MITM/T...</td></tr></tbody></table>
     </section>
     
   <footer>
