@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-27T16:31:26.537327+00:00",
-  "total": 110,
+  "generated_at": "2026-05-27T17:01:45.043378+00:00",
+  "total": 112,
   "sources": [
     "algora",
     "audit_contest",
@@ -29,6 +29,58 @@
     "znc"
   ],
   "bounties": [
+    {
+      "id": "gh-Scottcjn-rustchain-bounties-692",
+      "hash": "Scottcjn/rustchain-bounties#692",
+      "title": "[BOUNTY: up to 50 RTC] Micro Liquidity \u2014 Provide Liquidity, Get 1.5x Back",
+      "reward": "$7",
+      "reward_usd": 7.0,
+      "currency": "USD",
+      "repo": "Scottcjn/rustchain-bounties",
+      "issue": 692,
+      "issue_url": "https://github.com/Scottcjn/rustchain-bounties/issues/692",
+      "org": "Scottcjn",
+      "source": "github_label",
+      "first_seen_at": "2026-05-27T16:56:17.943310+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 1,
+        "solvability": 1,
+        "merge_probability": 0.01,
+        "estimated_hours": 0.5
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 15,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-Scottcjn-rustchain-bounties-1482",
+      "hash": "Scottcjn/rustchain-bounties#1482",
+      "title": "[PROGRAM] RustChain Digital Ambassador \u2014 Paid in RTC (Humans Only, Verified via Google Meet)",
+      "reward": "$15",
+      "reward_usd": 15.0,
+      "currency": "USD",
+      "repo": "Scottcjn/rustchain-bounties",
+      "issue": 1482,
+      "issue_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1482",
+      "org": "Scottcjn",
+      "source": "github_label",
+      "first_seen_at": "2026-05-27T16:56:17.942735+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 3,
+        "merge_probability": 0.5,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 22,
+        "linked_prs": 0
+      }
+    },
     {
       "id": "gh-blockchainforsocialimpact-incubator-2",
       "hash": "blockchainforsocialimpact/incubator#2",
