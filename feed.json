@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-28T19:39:17.891947+00:00",
-  "total": 114,
+  "generated_at": "2026-05-28T20:09:25.786528+00:00",
+  "total": 117,
   "sources": [
     "algora",
     "audit_contest",
@@ -30,6 +30,84 @@
     "znc"
   ],
   "bounties": [
+    {
+      "id": "gh-warpspeedopen-source-warpspeed-bounties-3",
+      "hash": "warpspeedopen-source/warpspeed-bounties#3",
+      "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
+      "reward": "$440",
+      "reward_usd": 440.0,
+      "currency": "USD",
+      "repo": "warpspeedopen-source/warpspeed-bounties",
+      "issue": 3,
+      "issue_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
+      "org": "warpspeedopen-source",
+      "source": "github_label",
+      "first_seen_at": "2026-05-28T20:06:58.475976+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 6,
+        "solvability": 4,
+        "merge_probability": 0.38,
+        "estimated_hours": 32.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 1,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-warpspeedopen-source-warpspeed-bounties-5",
+      "hash": "warpspeedopen-source/warpspeed-bounties#5",
+      "title": "[PAID BOUNTY - $660] Inline Image Editing",
+      "reward": "$660",
+      "reward_usd": 660.0,
+      "currency": "USD",
+      "repo": "warpspeedopen-source/warpspeed-bounties",
+      "issue": 5,
+      "issue_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/5",
+      "org": "warpspeedopen-source",
+      "source": "github_label",
+      "first_seen_at": "2026-05-28T20:06:58.475668+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 7,
+        "solvability": 2,
+        "merge_probability": 0.15,
+        "estimated_hours": 24.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 1,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-warpspeedopen-source-warpspeed-bounties-4",
+      "hash": "warpspeedopen-source/warpspeed-bounties#4",
+      "title": "[PAID BOUNTY - $750] Email Threads API",
+      "reward": "$750",
+      "reward_usd": 750.0,
+      "currency": "USD",
+      "repo": "warpspeedopen-source/warpspeed-bounties",
+      "issue": 4,
+      "issue_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
+      "org": "warpspeedopen-source",
+      "source": "github_label",
+      "first_seen_at": "2026-05-28T20:06:58.475360+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 7,
+        "solvability": 4,
+        "merge_probability": 0.62,
+        "estimated_hours": 24.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 2,
+        "linked_prs": 0
+      }
+    },
     {
       "id": "gh-warpspeedopen-source-warpspeed-bounties-1",
       "hash": "warpspeedopen-source/warpspeed-bounties#1",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-28T19:39:17.891947+00:00",
-  "total": 114,
+  "generated_at": "2026-05-28T20:09:25.786528+00:00",
+  "total": 117,
   "sources": [
     "algora",
     "audit_contest",
@@ -30,6 +30,84 @@
     "znc"
   ],
   "bounties": [
+    {
+      "id": "gh-warpspeedopen-source-warpspeed-bounties-3",
+      "hash": "warpspeedopen-source/warpspeed-bounties#3",
+      "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
+      "reward": "$440",
+      "reward_usd": 440.0,
+      "currency": "USD",
+      "repo": "warpspeedopen-source/warpspeed-bounties",
+      "issue": 3,
+      "issue_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
+      "org": "warpspeedopen-source",
+      "source": "github_label",
+      "first_seen_at": "2026-05-28T20:06:58.475976+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 6,
+        "solvability": 4,
+        "merge_probability": 0.38,
+        "estimated_hours": 32.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 1,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-warpspeedopen-source-warpspeed-bounties-5",
+      "hash": "warpspeedopen-source/warpspeed-bounties#5",
+      "title": "[PAID BOUNTY - $660] Inline Image Editing",
+      "reward": "$660",
+      "reward_usd": 660.0,
+      "currency": "USD",
+      "repo": "warpspeedopen-source/warpspeed-bounties",
+      "issue": 5,
+      "issue_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/5",
+      "org": "warpspeedopen-source",
+      "source": "github_label",
+      "first_seen_at": "2026-05-28T20:06:58.475668+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 7,
+        "solvability": 2,
+        "merge_probability": 0.15,
+        "estimated_hours": 24.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 1,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-warpspeedopen-source-warpspeed-bounties-4",
+      "hash": "warpspeedopen-source/warpspeed-bounties#4",
+      "title": "[PAID BOUNTY - $750] Email Threads API",
+      "reward": "$750",
+      "reward_usd": 750.0,
+      "currency": "USD",
+      "repo": "warpspeedopen-source/warpspeed-bounties",
+      "issue": 4,
+      "issue_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
+      "org": "warpspeedopen-source",
+      "source": "github_label",
+      "first_seen_at": "2026-05-28T20:06:58.475360+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 7,
+        "solvability": 4,
+        "merge_probability": 0.62,
+        "estimated_hours": 24.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 2,
+        "linked_prs": 0
+      }
+    },
     {
       "id": "gh-warpspeedopen-source-warpspeed-bounties-1",
       "hash": "warpspeedopen-source/warpspeed-bounties#1",
@@ -469,84 +547,6 @@
       "competition": {
         "verdict": "clear",
         "comment_count": 1,
-        "linked_prs": 0
-      }
-    },
-    {
-      "id": "srF4jyTQoHnppDfE",
-      "hash": "bug-bounty#29",
-      "title": "Implement a fully functional Admin Panel",
-      "reward": "$1",
-      "reward_usd": 1.0,
-      "currency": "USD",
-      "repo": "bug-bounty/bug-bounty",
-      "issue": 29,
-      "issue_url": "https://github.com/bug-bounty/bug-bounty/issues/29",
-      "org": "Brayan114",
-      "source": "algora",
-      "first_seen_at": "2026-05-20T11:52:18.447176+00:00",
-      "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
-      },
-      "competition": {
-        "verdict": "error",
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "gh-Dasharo-dasharo-issues-1273",
-      "hash": "Dasharo/dasharo-issues#1273",
-      "title": "EC testablity interface",
-      "reward": "$1000",
-      "reward_usd": 1000.0,
-      "currency": "USD",
-      "repo": "Dasharo/dasharo-issues",
-      "issue": 1273,
-      "issue_url": "https://github.com/Dasharo/dasharo-issues/issues/1273",
-      "org": "Dasharo",
-      "source": "github_label",
-      "first_seen_at": "2026-05-20T10:49:01.799726+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 8,
-        "solvability": 4,
-        "merge_probability": 0.45,
-        "estimated_hours": 80.0
-      },
-      "competition": {
-        "verdict": "clear",
-        "comment_count": 9,
-        "linked_prs": 0
-      }
-    },
-    {
-      "id": "gh-tinygrad-tinygrad-3039",
-      "hash": "tinygrad/tinygrad#3039",
-      "title": "Bounty: Fast parallel scan (Mamba, etc). ",
-      "reward": "$500",
-      "reward_usd": 500.0,
-      "currency": "USD",
-      "repo": "tinygrad/tinygrad",
-      "issue": 3039,
-      "issue_url": "https://github.com/tinygrad/tinygrad/issues/3039",
-      "org": "tinygrad",
-      "source": "github_label",
-      "first_seen_at": "2026-05-20T10:49:01.799370+00:00",
-      "scoring": {
-        "go_decision": true,
-        "difficulty": 7,
-        "solvability": 6,
-        "merge_probability": 0.74,
-        "estimated_hours": 32.0
-      },
-      "competition": {
-        "verdict": "clear",
-        "comment_count": 16,
         "linked_prs": 0
       }
     }
