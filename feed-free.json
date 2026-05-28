@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-28T19:09:10.228126+00:00",
-  "total": 112,
+  "generated_at": "2026-05-28T19:39:17.891947+00:00",
+  "total": 114,
   "sources": [
     "algora",
     "audit_contest",
@@ -26,9 +26,62 @@
     "orchestration-agent",
     "thesysdev",
     "tinygrad",
+    "warpspeedopen-source",
     "znc"
   ],
   "bounties": [
+    {
+      "id": "gh-warpspeedopen-source-warpspeed-bounties-1",
+      "hash": "warpspeedopen-source/warpspeed-bounties#1",
+      "title": "[PAID BOUNTY - $960] Attachment Summarizer Service",
+      "reward": "$960",
+      "reward_usd": 960.0,
+      "currency": "USD",
+      "repo": "warpspeedopen-source/warpspeed-bounties",
+      "issue": 1,
+      "issue_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1",
+      "org": "warpspeedopen-source",
+      "source": "github_label",
+      "first_seen_at": "2026-05-28T19:33:32.238524+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 7,
+        "solvability": 4,
+        "merge_probability": 0.55,
+        "estimated_hours": 32.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 0,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-warpspeedopen-source-warpspeed-bounties-2",
+      "hash": "warpspeedopen-source/warpspeed-bounties#2",
+      "title": "[PAID BOUNTY - $330] Email Inbox Classic View Page UI",
+      "reward": "$330",
+      "reward_usd": 330.0,
+      "currency": "USD",
+      "repo": "warpspeedopen-source/warpspeed-bounties",
+      "issue": 2,
+      "issue_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2",
+      "org": "warpspeedopen-source",
+      "source": "github_label",
+      "first_seen_at": "2026-05-28T19:33:32.238128+00:00",
+      "scoring": {
+        "go_decision": true,
+        "difficulty": 6,
+        "solvability": 5,
+        "merge_probability": 0.58,
+        "estimated_hours": 16.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 0,
+        "linked_prs": 0
+      }
+    },
     {
       "id": "gh-Scottcjn-rustchain-bounties-692",
       "hash": "Scottcjn/rustchain-bounties#692",
@@ -495,58 +548,6 @@
         "verdict": "clear",
         "comment_count": 16,
         "linked_prs": 0
-      }
-    },
-    {
-      "id": "HxNA2NKPkev39N2W",
-      "hash": "jlcsearch#92",
-      "title": "Add `is_extended_promotional ` column to components (from data source)",
-      "reward": "$1",
-      "reward_usd": 1.0,
-      "currency": "USD",
-      "repo": "jlcsearch/jlcsearch",
-      "issue": 92,
-      "issue_url": "https://github.com/jlcsearch/jlcsearch/issues/92",
-      "org": "Guzzzzzzzz",
-      "source": "algora",
-      "first_seen_at": "2026-05-20T09:12:33.075498+00:00",
-      "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
-      },
-      "competition": {
-        "verdict": "error",
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "1pum2oqraFeWsER5",
-      "hash": "PX4-Autopilot#19970",
-      "title": "[Project Tracker] Sensor configuration display UI",
-      "reward": "$20",
-      "reward_usd": 20.0,
-      "currency": "USD",
-      "repo": "PX4-Autopilot/PX4-Autopilot",
-      "issue": 19970,
-      "issue_url": "https://github.com/PX4-Autopilot/PX4-Autopilot/issues/19970",
-      "org": "pmjnt",
-      "source": "algora",
-      "first_seen_at": "2026-05-20T07:34:30.344534+00:00",
-      "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
-      },
-      "competition": {
-        "verdict": "error",
-        "comment_count": null,
-        "linked_prs": null
       }
     }
   ]
