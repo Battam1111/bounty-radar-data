@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-29T14:44:28.538462+00:00",
-  "total": 120,
+  "generated_at": "2026-05-29T15:14:40.609615+00:00",
+  "total": 121,
   "sources": [
     "algora",
     "audit_contest",
@@ -30,6 +30,32 @@
     "znc"
   ],
   "bounties": [
+    {
+      "id": "audit-cantina-/competitions/4679e0fa-85f7-4e",
+      "hash": "cantina/contest/competitions/4679e0fa-85f7-4ea5-8827-ee6c70bdee6b",
+      "title": "[Audit] Morpho / Morpho Midnight",
+      "reward": "$400000.0",
+      "reward_usd": 400000.0,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "cantina",
+      "source": "audit_contest",
+      "first_seen_at": "2026-05-29T15:05:40.703483+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 7,
+        "solvability": 3,
+        "merge_probability": 0.5,
+        "estimated_hours": 32.0
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
     {
       "id": "gh-warpspeedopen-source-warpspeed-bounties-7",
       "hash": "warpspeedopen-source/warpspeed-bounties#7",
@@ -511,32 +537,6 @@
       "org": "cantina",
       "source": "audit_contest",
       "first_seen_at": "2026-05-23T12:00:52.175663+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "audit-cantina-/competitions/980a5976-9a7d-40",
-      "hash": "cantina/contest/competitions/980a5976-9a7d-4014-b2e1-c248b4c6fa44",
-      "title": "[Audit] Reserve Protocol / Reserve Governor",
-      "reward": "$30000.0",
-      "reward_usd": 30000.0,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "cantina",
-      "source": "audit_contest",
-      "first_seen_at": "2026-05-23T12:00:52.174380+00:00",
       "scoring": {
         "go_decision": false,
         "difficulty": 5,
