@@ -1,4 +1,4 @@
-# Bounty Radar — Public Data Feed + Paid REST API
+# Bounty Radar - Public Data Feed + Paid REST API
 
 Live JSON + RSS feed of open ZK / AI bounties across 11 ecosystems (Algora, GitHub labels, Drips Wave, Code4rena, Bountycaster, Midnight, Aleo, Noir, Aztec, Stacks, Starknet, Mina, risc0).
 
@@ -24,9 +24,9 @@ https://battam1111.github.io/bounty-radar-data/api/<prefix>_<license_key>/feed.j
 | **Pro**      | $97/mo      | 5 constraints | `p_`   |
 | **Team**     | $497/mo     | unlimited     | `t_`   |
 
-Filter shape: `{"ecosystem":"noir","min_reward_usd":250}` — see [docs/RADAR_API.md](https://github.com/Battam1111/bounty-agent/blob/main/docs/RADAR_API.md) in bounty-agent for the full reference.
+Filter shape: `{"ecosystem":"noir","min_reward_usd":250}` - see [docs/RADAR_API.md](https://github.com/Battam1111/bounty-agent/blob/main/docs/RADAR_API.md) in bounty-agent for the full reference.
 
-Buy at <https://polar.sh/Battam1111> — checkout URLs are pinned in the storefront.
+Buy at <https://polar.sh/Battam1111> - checkout URLs are pinned in the storefront.
 
 ### How it works
 
@@ -41,4 +41,4 @@ The mini's network has a transparent TLS proxy that MITMs strict-TLS clients (Ta
 
 ## License
 
-MIT — see LICENSE.
+MIT - see LICENSE.
