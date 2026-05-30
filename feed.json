@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-30T05:48:24.921385+00:00",
-  "total": 122,
+  "generated_at": "2026-05-30T06:18:31.628225+00:00",
+  "total": 121,
   "sources": [
     "algora",
     "audit_contest",
@@ -15,7 +15,6 @@
     "PX4-Autopilot",
     "PunkFinance",
     "Scottcjn",
-    "Spectral-Finance",
     "aLexzzz430",
     "blockchainforsocialimpact",
     "brianne-showed",
@@ -31,32 +30,6 @@
     "znc"
   ],
   "bounties": [
-    {
-      "id": "gh-Spectral-Finance-lux-61",
-      "hash": "Spectral-Finance/lux#61",
-      "title": "Twitter Automation and Engagement ( $1,800)",
-      "reward": "$1800",
-      "reward_usd": 1800.0,
-      "currency": "USD",
-      "repo": "Spectral-Finance/lux",
-      "issue": 61,
-      "issue_url": "https://github.com/Spectral-Finance/lux/issues/61",
-      "org": "Spectral-Finance",
-      "source": "github_label",
-      "first_seen_at": "2026-05-30T05:48:01.025223+00:00",
-      "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
     {
       "id": "audit-cantina-/competitions/4679e0fa-85f7-4e",
       "hash": "cantina/contest/competitions/4679e0fa-85f7-4ea5-8827-ee6c70bdee6b",
