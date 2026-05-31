@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-31T18:58:04.726380+00:00",
-  "total": 121,
+  "generated_at": "2026-05-31T19:28:11.784339+00:00",
+  "total": 122,
   "sources": [
     "algora",
     "audit_contest",
@@ -30,6 +30,32 @@
     "znc"
   ],
   "bounties": [
+    {
+      "id": "gh-Scottcjn-rustchain-bounties-449",
+      "hash": "Scottcjn/rustchain-bounties#449",
+      "title": "[BOUNTY] Build a BoTTube Bot That Uploads Daily \u2014 50 RTC",
+      "reward": "$5",
+      "reward_usd": 5.0,
+      "currency": "USD",
+      "repo": "Scottcjn/rustchain-bounties",
+      "issue": 449,
+      "issue_url": "https://github.com/Scottcjn/rustchain-bounties/issues/449",
+      "org": "Scottcjn",
+      "source": "github_label",
+      "first_seen_at": "2026-05-31T19:10:01.542233+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 6,
+        "solvability": 4,
+        "merge_probability": 0.35,
+        "estimated_hours": 12.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 18,
+        "linked_prs": 0
+      }
+    },
     {
       "id": "audit-cantina-/competitions/4679e0fa-85f7-4e",
       "hash": "cantina/contest/competitions/4679e0fa-85f7-4ea5-8827-ee6c70bdee6b",
@@ -511,32 +537,6 @@
       "org": "Arbitrum Foundation",
       "source": "buidlbox",
       "first_seen_at": "2026-05-23T12:00:52.176253+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "audit-cantina-/competitions/e55ee7b9-6c99-42",
-      "hash": "cantina/contest/competitions/e55ee7b9-6c99-42f8-8338-39f3dd134ef3",
-      "title": "[Audit] Revert Finance / Revert Finance - StableSwap Hooks",
-      "reward": "$50000.0",
-      "reward_usd": 50000.0,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "cantina",
-      "source": "audit_contest",
-      "first_seen_at": "2026-05-23T12:00:52.175663+00:00",
       "scoring": {
         "go_decision": false,
         "difficulty": 5,
