@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-31T20:28:38.389546+00:00",
-  "total": 122,
+  "generated_at": "2026-06-01T00:32:48.251226+00:00",
+  "total": 123,
   "sources": [
     "algora",
     "audit_contest",
@@ -19,6 +19,7 @@
     "blockchainforsocialimpact",
     "brianne-showed",
     "bug-bounty",
+    "commaai",
     "coolify",
     "jlcsearch",
     "junn-dev",
@@ -30,6 +31,32 @@
     "znc"
   ],
   "bounties": [
+    {
+      "id": "gh-commaai-opendbc-3426",
+      "hash": "commaai/opendbc#3426",
+      "title": "[$10k bounty] Ford F-150 2026 (TRON) support",
+      "reward": "$10",
+      "reward_usd": 10.0,
+      "currency": "USD",
+      "repo": "commaai/opendbc",
+      "issue": 3426,
+      "issue_url": "https://github.com/commaai/opendbc/issues/3426",
+      "org": "commaai",
+      "source": "github_label",
+      "first_seen_at": "2026-06-01T00:20:08.591654+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 8,
+        "solvability": 4,
+        "merge_probability": 0.45,
+        "estimated_hours": 80.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 0,
+        "linked_prs": 0
+      }
+    },
     {
       "id": "gh-Scottcjn-rustchain-bounties-449",
       "hash": "Scottcjn/rustchain-bounties#449",
@@ -516,32 +543,6 @@
         "difficulty": 5,
         "solvability": 3,
         "merge_probability": 0.5,
-        "estimated_hours": 4.0
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "bb-9dfcd5f7-f644-458a-8448-88d22ed098ff",
-      "hash": "hackquest.io/hackathons/Arbitrum-Open-House-Dubai-Online-Buildathon",
-      "title": "Arbitrum Open House Dubai: Online Buildathon",
-      "reward": "$30000",
-      "reward_usd": 30000.0,
-      "currency": "USD",
-      "repo": null,
-      "issue": null,
-      "issue_url": null,
-      "org": "Arbitrum Foundation",
-      "source": "buidlbox",
-      "first_seen_at": "2026-05-23T12:00:52.176253+00:00",
-      "scoring": {
-        "go_decision": false,
-        "difficulty": 5,
-        "solvability": 1,
-        "merge_probability": 0.1,
         "estimated_hours": 4.0
       },
       "competition": {
