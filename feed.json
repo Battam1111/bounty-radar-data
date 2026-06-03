@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-03T05:54:37.487264+00:00",
-  "total": 123,
+  "generated_at": "2026-06-03T06:24:45.870648+00:00",
+  "total": 130,
   "sources": [
     "algora",
     "audit_contest",
@@ -28,9 +28,192 @@
     "thesysdev",
     "tinygrad",
     "warpspeedopen-source",
+    "xevrion-v2",
     "znc"
   ],
   "bounties": [
+    {
+      "id": "gh-xevrion-v2-agent-playground-9",
+      "hash": "xevrion-v2/agent-playground#9",
+      "title": "Add request body size limit",
+      "reward": "$50",
+      "reward_usd": 50.0,
+      "currency": "USD",
+      "repo": "xevrion-v2/agent-playground",
+      "issue": 9,
+      "issue_url": "https://github.com/xevrion-v2/agent-playground/issues/9",
+      "org": "xevrion-v2",
+      "source": "github_label",
+      "first_seen_at": "2026-06-03T06:22:46.555488+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "gh-xevrion-v2-agent-playground-15",
+      "hash": "xevrion-v2/agent-playground#15",
+      "title": "Implement infinite sequence iterator",
+      "reward": "$50",
+      "reward_usd": 50.0,
+      "currency": "USD",
+      "repo": "xevrion-v2/agent-playground",
+      "issue": 15,
+      "issue_url": "https://github.com/xevrion-v2/agent-playground/issues/15",
+      "org": "xevrion-v2",
+      "source": "github_label",
+      "first_seen_at": "2026-06-03T06:22:46.555088+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "gh-xevrion-v2-agent-playground-14",
+      "hash": "xevrion-v2/agent-playground#14",
+      "title": "Improve PI calculation accuracy",
+      "reward": "$50",
+      "reward_usd": 50.0,
+      "currency": "USD",
+      "repo": "xevrion-v2/agent-playground",
+      "issue": 14,
+      "issue_url": "https://github.com/xevrion-v2/agent-playground/issues/14",
+      "org": "xevrion-v2",
+      "source": "github_label",
+      "first_seen_at": "2026-06-03T06:22:46.554864+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "gh-xevrion-v2-agent-playground-11",
+      "hash": "xevrion-v2/agent-playground#11",
+      "title": "Write unit tests for leaderboard updates",
+      "reward": "$50",
+      "reward_usd": 50.0,
+      "currency": "USD",
+      "repo": "xevrion-v2/agent-playground",
+      "issue": 11,
+      "issue_url": "https://github.com/xevrion-v2/agent-playground/issues/11",
+      "org": "xevrion-v2",
+      "source": "github_label",
+      "first_seen_at": "2026-06-03T06:22:46.554656+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "gh-xevrion-v2-agent-playground-13",
+      "hash": "xevrion-v2/agent-playground#13",
+      "title": "Write unit tests for UI Button stub",
+      "reward": "$50",
+      "reward_usd": 50.0,
+      "currency": "USD",
+      "repo": "xevrion-v2/agent-playground",
+      "issue": 13,
+      "issue_url": "https://github.com/xevrion-v2/agent-playground/issues/13",
+      "org": "xevrion-v2",
+      "source": "github_label",
+      "first_seen_at": "2026-06-03T06:22:46.554445+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "gh-xevrion-v2-agent-playground-12",
+      "hash": "xevrion-v2/agent-playground#12",
+      "title": "Write unit tests for user routes",
+      "reward": "$50",
+      "reward_usd": 50.0,
+      "currency": "USD",
+      "repo": "xevrion-v2/agent-playground",
+      "issue": 12,
+      "issue_url": "https://github.com/xevrion-v2/agent-playground/issues/12",
+      "org": "xevrion-v2",
+      "source": "github_label",
+      "first_seen_at": "2026-06-03T06:22:46.554243+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "gh-xevrion-v2-agent-playground-10",
+      "hash": "xevrion-v2/agent-playground#10",
+      "title": "Improve API route TODO coverage",
+      "reward": "$50",
+      "reward_usd": 50.0,
+      "currency": "USD",
+      "repo": "xevrion-v2/agent-playground",
+      "issue": 10,
+      "issue_url": "https://github.com/xevrion-v2/agent-playground/issues/10",
+      "org": "xevrion-v2",
+      "source": "github_label",
+      "first_seen_at": "2026-06-03T06:22:46.553907+00:00",
+      "scoring": {
+        "go_decision": null,
+        "difficulty": null,
+        "solvability": null,
+        "merge_probability": null,
+        "estimated_hours": null
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 0,
+        "linked_prs": 0
+      }
+    },
     {
       "id": "gh-commaai-opendbc-3426",
       "hash": "commaai/opendbc#3426",
