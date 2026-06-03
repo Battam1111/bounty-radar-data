@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-03T06:24:45.870648+00:00",
-  "total": 130,
+  "generated_at": "2026-06-03T06:54:55.506503+00:00",
+  "total": 124,
   "sources": [
     "algora",
     "audit_contest",
@@ -33,162 +33,6 @@
   ],
   "bounties": [
     {
-      "id": "gh-xevrion-v2-agent-playground-9",
-      "hash": "xevrion-v2/agent-playground#9",
-      "title": "Add request body size limit",
-      "reward": "$50",
-      "reward_usd": 50.0,
-      "currency": "USD",
-      "repo": "xevrion-v2/agent-playground",
-      "issue": 9,
-      "issue_url": "https://github.com/xevrion-v2/agent-playground/issues/9",
-      "org": "xevrion-v2",
-      "source": "github_label",
-      "first_seen_at": "2026-06-03T06:22:46.555488+00:00",
-      "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "gh-xevrion-v2-agent-playground-15",
-      "hash": "xevrion-v2/agent-playground#15",
-      "title": "Implement infinite sequence iterator",
-      "reward": "$50",
-      "reward_usd": 50.0,
-      "currency": "USD",
-      "repo": "xevrion-v2/agent-playground",
-      "issue": 15,
-      "issue_url": "https://github.com/xevrion-v2/agent-playground/issues/15",
-      "org": "xevrion-v2",
-      "source": "github_label",
-      "first_seen_at": "2026-06-03T06:22:46.555088+00:00",
-      "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "gh-xevrion-v2-agent-playground-14",
-      "hash": "xevrion-v2/agent-playground#14",
-      "title": "Improve PI calculation accuracy",
-      "reward": "$50",
-      "reward_usd": 50.0,
-      "currency": "USD",
-      "repo": "xevrion-v2/agent-playground",
-      "issue": 14,
-      "issue_url": "https://github.com/xevrion-v2/agent-playground/issues/14",
-      "org": "xevrion-v2",
-      "source": "github_label",
-      "first_seen_at": "2026-06-03T06:22:46.554864+00:00",
-      "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "gh-xevrion-v2-agent-playground-11",
-      "hash": "xevrion-v2/agent-playground#11",
-      "title": "Write unit tests for leaderboard updates",
-      "reward": "$50",
-      "reward_usd": 50.0,
-      "currency": "USD",
-      "repo": "xevrion-v2/agent-playground",
-      "issue": 11,
-      "issue_url": "https://github.com/xevrion-v2/agent-playground/issues/11",
-      "org": "xevrion-v2",
-      "source": "github_label",
-      "first_seen_at": "2026-06-03T06:22:46.554656+00:00",
-      "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "gh-xevrion-v2-agent-playground-13",
-      "hash": "xevrion-v2/agent-playground#13",
-      "title": "Write unit tests for UI Button stub",
-      "reward": "$50",
-      "reward_usd": 50.0,
-      "currency": "USD",
-      "repo": "xevrion-v2/agent-playground",
-      "issue": 13,
-      "issue_url": "https://github.com/xevrion-v2/agent-playground/issues/13",
-      "org": "xevrion-v2",
-      "source": "github_label",
-      "first_seen_at": "2026-06-03T06:22:46.554445+00:00",
-      "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
-      "id": "gh-xevrion-v2-agent-playground-12",
-      "hash": "xevrion-v2/agent-playground#12",
-      "title": "Write unit tests for user routes",
-      "reward": "$50",
-      "reward_usd": 50.0,
-      "currency": "USD",
-      "repo": "xevrion-v2/agent-playground",
-      "issue": 12,
-      "issue_url": "https://github.com/xevrion-v2/agent-playground/issues/12",
-      "org": "xevrion-v2",
-      "source": "github_label",
-      "first_seen_at": "2026-06-03T06:22:46.554243+00:00",
-      "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
-      },
-      "competition": {
-        "verdict": null,
-        "comment_count": null,
-        "linked_prs": null
-      }
-    },
-    {
       "id": "gh-xevrion-v2-agent-playground-10",
       "hash": "xevrion-v2/agent-playground#10",
       "title": "Improve API route TODO coverage",
@@ -202,11 +46,11 @@
       "source": "github_label",
       "first_seen_at": "2026-06-03T06:22:46.553907+00:00",
       "scoring": {
-        "go_decision": null,
-        "difficulty": null,
-        "solvability": null,
-        "merge_probability": null,
-        "estimated_hours": null
+        "go_decision": true,
+        "difficulty": 2,
+        "solvability": 9,
+        "merge_probability": 0.7,
+        "estimated_hours": 1.5
       },
       "competition": {
         "verdict": "clear",
@@ -550,6 +394,162 @@
         "verdict": "clear",
         "comment_count": 22,
         "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-blockchainforsocialimpact-incubator-2",
+      "hash": "blockchainforsocialimpact/incubator#2",
+      "title": "[$10,000] - Sustainable Cities",
+      "reward": "$10000",
+      "reward_usd": 10000.0,
+      "currency": "USD",
+      "repo": "blockchainforsocialimpact/incubator",
+      "issue": 2,
+      "issue_url": "https://github.com/blockchainforsocialimpact/incubator/issues/2",
+      "org": "blockchainforsocialimpact",
+      "source": "github_label",
+      "first_seen_at": "2026-05-25T01:38:44.559092+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 6,
+        "solvability": 4,
+        "merge_probability": 0.45,
+        "estimated_hours": 24.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 14,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-PunkFinance-punk.protocol-3",
+      "hash": "PunkFinance/punk.protocol#3",
+      "title": "Coding Stablecoin Yield Strategy for DeFi 401(k)",
+      "reward": "$7000",
+      "reward_usd": 7000.0,
+      "currency": "USD",
+      "repo": "PunkFinance/punk.protocol",
+      "issue": 3,
+      "issue_url": "https://github.com/PunkFinance/punk.protocol/issues/3",
+      "org": "PunkFinance",
+      "source": "github_label",
+      "first_seen_at": "2026-05-25T01:38:44.558333+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 6,
+        "solvability": 4,
+        "merge_probability": 0.35,
+        "estimated_hours": 24.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 18,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-PunkFinance-punk.protocol-2",
+      "hash": "PunkFinance/punk.protocol#2",
+      "title": "Building Yield Strategy for DeFi 401(k)",
+      "reward": "$3000",
+      "reward_usd": 3000.0,
+      "currency": "USD",
+      "repo": "PunkFinance/punk.protocol",
+      "issue": 2,
+      "issue_url": "https://github.com/PunkFinance/punk.protocol/issues/2",
+      "org": "PunkFinance",
+      "source": "github_label",
+      "first_seen_at": "2026-05-25T01:38:44.557928+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 7,
+        "solvability": 4,
+        "merge_probability": 0.45,
+        "estimated_hours": 32.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 15,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "gh-PunkFinance-punk.protocol-5",
+      "hash": "PunkFinance/punk.protocol#5",
+      "title": "Building & Coding BTC Yield Strategy",
+      "reward": "$6000",
+      "reward_usd": 6000.0,
+      "currency": "USD",
+      "repo": "PunkFinance/punk.protocol",
+      "issue": 5,
+      "issue_url": "https://github.com/PunkFinance/punk.protocol/issues/5",
+      "org": "PunkFinance",
+      "source": "github_label",
+      "first_seen_at": "2026-05-25T01:38:44.557404+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 7,
+        "solvability": 4,
+        "merge_probability": 0.45,
+        "estimated_hours": 48.0
+      },
+      "competition": {
+        "verdict": "clear",
+        "comment_count": 24,
+        "linked_prs": 0
+      }
+    },
+    {
+      "id": "bb-9aa8fbad-97bc-43ab-9d3f-ff726c3934a0",
+      "hash": "hackquest.io/hackathons/Injective-Solo-AI-Builder-Sprint",
+      "title": "Injective Solo AI Builder Sprint",
+      "reward": "$500",
+      "reward_usd": 500.0,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "Injective",
+      "source": "buidlbox",
+      "first_seen_at": "2026-05-23T12:00:52.177119+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 6,
+        "solvability": 2,
+        "merge_probability": 0.2,
+        "estimated_hours": 8.0
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
+      }
+    },
+    {
+      "id": "bb-60ba4958-4710-4f74-96b4-d1ea92aa97dd",
+      "hash": "hackquest.io/hackathons/Arbitrum-Open-House-London-Online-Buildathon",
+      "title": "Arbitrum Open House London: Online Buildathon",
+      "reward": "$115000",
+      "reward_usd": 115000.0,
+      "currency": "USD",
+      "repo": null,
+      "issue": null,
+      "issue_url": null,
+      "org": "Arbitrum Foundation",
+      "source": "buidlbox",
+      "first_seen_at": "2026-05-23T12:00:52.176868+00:00",
+      "scoring": {
+        "go_decision": false,
+        "difficulty": 5,
+        "solvability": 1,
+        "merge_probability": 0.1,
+        "estimated_hours": 4.0
+      },
+      "competition": {
+        "verdict": null,
+        "comment_count": null,
+        "linked_prs": null
       }
     }
   ]
